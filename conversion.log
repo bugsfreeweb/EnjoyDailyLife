@@ -1,0 +1,39 @@
+2025-04-15 06:25:24,922 - INFO - Created directories: hls_output, m3u_permanent
+2025-04-15 06:25:24,922 - INFO - Starting conversion process
+2025-04-15 06:25:25,049 - INFO - Fetched 306 URLs from https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/Movies/Hollywood/Movies.m3u
+2025-04-15 06:25:25,049 - INFO - Found 5 new URLs for source_1
+2025-04-15 06:25:25,128 - INFO - Downloaded https://raw.githubusercontent.com/Dante5910/Esto-solamente-es-una-prueba/refs/heads/main/THE%20LAST%20OF%20US to temp_0_1744698325.mp4
+2025-04-15 06:25:25,130 - INFO - Downloaded https://raw.githubusercontent.com/Dante5910/Esto-solamente-es-una-prueba/refs/heads/main/Orange%20is%20the%20new%20black to temp_0_1744698325.mp4
+2025-04-15 06:25:25,155 - INFO - Downloaded https://raw.githubusercontent.com/Dante5910/Esto-solamente-es-una-prueba/refs/heads/main/Comando%20de%20criaturas to temp_0_1744698325.mp4
+2025-04-15 06:25:25,171 - INFO - Downloaded https://raw.githubusercontent.com/tokio14-dot/cuentos/refs/heads/main/elproblemadelos3cuerpos.m3u to temp_0_1744698325.mp4
+2025-04-15 06:25:25,699 - ERROR - Error converting temp_0_1744698325.mp4: Command '['ffmpeg', '-i', 'temp_0_1744698325.mp4', '-c:v', 'copy', '-c:a', 'copy', '-f', 'hls', '-hls_time', '10', '-hls_list_size', '0', '-hls_segment_filename', 'hls_output/source_1/video_1/segment_%03d.ts', 'hls_output/source_1/video_1/playlist.m3u8']' returned non-zero exit status 183.
+2025-04-15 06:25:25,699 - ERROR - Error converting temp_0_1744698325.mp4: Command '['ffmpeg', '-i', 'temp_0_1744698325.mp4', '-c:v', 'copy', '-c:a', 'copy', '-f', 'hls', '-hls_time', '10', '-hls_list_size', '0', '-hls_segment_filename', 'hls_output/source_1/video_1/segment_%03d.ts', 'hls_output/source_1/video_1/playlist.m3u8']' returned non-zero exit status 183.
+2025-04-15 06:25:25,699 - WARNING - Failed to delete temp_0_1744698325.mp4: [Errno 2] No such file or directory: 'temp_0_1744698325.mp4'
+2025-04-15 06:25:25,700 - ERROR - Error converting temp_0_1744698325.mp4: Command '['ffmpeg', '-i', 'temp_0_1744698325.mp4', '-c:v', 'copy', '-c:a', 'copy', '-f', 'hls', '-hls_time', '10', '-hls_list_size', '0', '-hls_segment_filename', 'hls_output/source_1/video_1/segment_%03d.ts', 'hls_output/source_1/video_1/playlist.m3u8']' returned non-zero exit status 183.
+2025-04-15 06:25:25,700 - WARNING - Failed to delete temp_0_1744698325.mp4: [Errno 2] No such file or directory: 'temp_0_1744698325.mp4'
+2025-04-15 06:25:25,700 - INFO - Cleaned up temporary file: temp_0_1744698325.mp4
+2025-04-15 06:25:25,700 - ERROR - Error converting temp_0_1744698325.mp4: Command '['ffmpeg', '-i', 'temp_0_1744698325.mp4', '-c:v', 'copy', '-c:a', 'copy', '-f', 'hls', '-hls_time', '10', '-hls_list_size', '0', '-hls_segment_filename', 'hls_output/source_1/video_1/segment_%03d.ts', 'hls_output/source_1/video_1/playlist.m3u8']' returned non-zero exit status 183.
+2025-04-15 06:25:25,700 - WARNING - Failed to delete temp_0_1744698325.mp4: [Errno 2] No such file or directory: 'temp_0_1744698325.mp4'
+2025-04-15 06:27:34,990 - INFO - Downloaded https://archive.org/download/los-caballeros-del-zodiaco-el-inicio-www.-gdrive-descarga.-com/Los%20Caballeros%20Del%20Zodiaco%20-%20El%20Inicio%20WWW.GDriveDescarga.Com.mp4 to temp_0_1744698325.mp4
+2025-04-15 06:27:42,501 - INFO - Converted temp_0_1744698325.mp4 to HLS at hls_output/source_1/video_1/playlist.m3u8
+2025-04-15 06:27:42,607 - INFO - Cleaned up temporary file: temp_0_1744698325.mp4
+2025-04-15 06:27:42,607 - INFO - Created permanent M3U: m3u_permanent/video_1.m3u
+2025-04-15 06:27:42,836 - INFO - Fetched 13821 URLs from https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/Movies/Worldwide/Movies.m3u
+2025-04-15 06:27:42,837 - INFO - Found 5 new URLs for source_2
+2025-04-15 06:27:43,187 - INFO - Downloaded https://storage.dewanonton.online/hls/829b79c8-b6c6-496d-9d58-2a695ea71756.mp4/index.m3u8 to temp_1_1744698462.mp4
+2025-04-15 06:27:43,271 - ERROR - Error converting temp_1_1744698462.mp4: Command '['ffmpeg', '-i', 'temp_1_1744698462.mp4', '-c:v', 'copy', '-c:a', 'copy', '-f', 'hls', '-hls_time', '10', '-hls_list_size', '0', '-hls_segment_filename', 'hls_output/source_2/video_2/segment_%03d.ts', 'hls_output/source_2/video_2/playlist.m3u8']' returned non-zero exit status 183.
+2025-04-15 06:27:43,271 - INFO - Cleaned up temporary file: temp_1_1744698462.mp4
+2025-04-15 06:27:43,393 - INFO - Downloaded https://cdn3.turboviplay.com/data1/67dd932c049a0/67dd932c049a0720.m3u8 to temp_1_1744698462.mp4
+2025-04-15 06:27:43,433 - INFO - Downloaded https://cdn1.turboviplay.com/data1/67c065cb2c4e0/67c065cb2c4e0720.m3u8 to temp_1_1744698462.mp4
+2025-04-15 06:27:43,474 - ERROR - Error converting temp_1_1744698462.mp4: Command '['ffmpeg', '-i', 'temp_1_1744698462.mp4', '-c:v', 'copy', '-c:a', 'copy', '-f', 'hls', '-hls_time', '10', '-hls_list_size', '0', '-hls_segment_filename', 'hls_output/source_2/video_2/segment_%03d.ts', 'hls_output/source_2/video_2/playlist.m3u8']' returned non-zero exit status 254.
+2025-04-15 06:27:43,474 - WARNING - Failed to delete temp_1_1744698462.mp4: [Errno 2] No such file or directory: 'temp_1_1744698462.mp4'
+2025-04-15 06:27:43,513 - ERROR - Error converting temp_1_1744698462.mp4: Command '['ffmpeg', '-i', 'temp_1_1744698462.mp4', '-c:v', 'copy', '-c:a', 'copy', '-f', 'hls', '-hls_time', '10', '-hls_list_size', '0', '-hls_segment_filename', 'hls_output/source_2/video_2/segment_%03d.ts', 'hls_output/source_2/video_2/playlist.m3u8']' returned non-zero exit status 254.
+2025-04-15 06:27:43,513 - WARNING - Failed to delete temp_1_1744698462.mp4: [Errno 2] No such file or directory: 'temp_1_1744698462.mp4'
+2025-04-15 06:27:43,626 - INFO - Downloaded https://storage.dewanonton.online/hls/0151ed89-1f79-40a1-b925-ef117d606293.mp4/index.m3u8 to temp_1_1744698463.mp4
+2025-04-15 06:27:43,709 - ERROR - Error converting temp_1_1744698463.mp4: Command '['ffmpeg', '-i', 'temp_1_1744698463.mp4', '-c:v', 'copy', '-c:a', 'copy', '-f', 'hls', '-hls_time', '10', '-hls_list_size', '0', '-hls_segment_filename', 'hls_output/source_2/video_2/segment_%03d.ts', 'hls_output/source_2/video_2/playlist.m3u8']' returned non-zero exit status 183.
+2025-04-15 06:27:43,709 - INFO - Cleaned up temporary file: temp_1_1744698463.mp4
+2025-04-15 06:27:50,645 - INFO - Downloaded https://cdn.turboviplay.cc/data1/67b1d04c33fdf/67b1d04c33fdf720.m3u8 to temp_1_1744698462.mp4
+2025-04-15 06:27:50,741 - ERROR - Error converting temp_1_1744698462.mp4: Command '['ffmpeg', '-i', 'temp_1_1744698462.mp4', '-c:v', 'copy', '-c:a', 'copy', '-f', 'hls', '-hls_time', '10', '-hls_list_size', '0', '-hls_segment_filename', 'hls_output/source_2/video_2/segment_%03d.ts', 'hls_output/source_2/video_2/playlist.m3u8']' returned non-zero exit status 183.
+2025-04-15 06:27:50,741 - INFO - Cleaned up temporary file: temp_1_1744698462.mp4
+2025-04-15 06:27:50,741 - INFO - Saved converted videos to converted_videos.json
+2025-04-15 06:27:50,741 - INFO - Master M3U written to master.m3u
