@@ -25,8 +25,8 @@ SOURCE_GROUPS = {
 BASE_GITHUB_URL = "https://raw.githubusercontent.com/bugsfreeweb/EnjoyDailyLife/main/hls_output"
 FINAL_M3U = "master.m3u"
 CONVERTED_LOG = "converted_videos.json"
-MAX_VIDEOS_PER_SOURCE = 50  # Increased for more videos
-DOWNLOAD_TIMEOUT = 10
+MAX_VIDEOS_PER_SOURCE = 50
+DOWNLOAD_TIMEOUT = 15  # Increased for slow servers
 MAX_WORKERS = 4
 DEFAULT_LOGO = "https://via.placeholder.com/150"
 
@@ -39,12 +39,27 @@ def create_dirs():
     os.makedirs(M3U_PERMANENT_DIR, exist_ok=True)
     logging.info(f"Created directories: {OUTPUT_DIR}, {M3U_PERMANENT_DIR}")
 
+def clean_converted_videos(converted_videos):
+    """Remove invalid entries without m3u8_file."""
+    cleaned = {}
+    for url, info in converted_videos.items():
+        m3u8_file = info.get("m3u8_file")
+        if m3u8_file and os.path.exists(m3u8_file):
+            cleaned[url] = info
+        else:
+            logging.info(f"Removed invalid entry: {url}")
+    return cleaned
+
 def load_converted_videos():
-    """Load previously converted videos."""
+    """Load and clean converted videos."""
     try:
         if os.path.exists(CONVERTED_LOG):
             with open(CONVERTED_LOG, 'r') as f:
-                return json.load(f)
+                data = json.load(f)
+            cleaned_data = clean_converted_videos(data)
+            with open(CONVERTED_LOG, 'w') as f:
+                json.dump(cleaned_data, f, indent=2)
+            return cleaned_data
         return {}
     except Exception as e:
         logging.error(f"Error loading {CONVERTED_LOG}: {e}")
@@ -60,13 +75,18 @@ def save_converted_videos(converted_videos):
         logging.error(f"Error saving {CONVERTED_LOG}: {e}")
 
 def validate_url(url):
-    """Check if URL is reachable."""
+    """Check if URL is reachable (optional)."""
     try:
         req = urllib.request.Request(url, method="HEAD", headers={'User-Agent': 'Mozilla/5.0'})
         with urllib.request.urlopen(req, timeout=5) as response:
-            return response.status == 200
-    except urllib.error.URLError:
-        return False
+            logging.info(f"Validated URL: {url}")
+            return True
+    except urllib.error.URLError as e:
+        logging.warning(f"HEAD validation failed for {url}: {e} - attempting download anyway")
+        return True  # Try downloading anyway
+    except Exception as e:
+        logging.warning(f"Unexpected validation error for {url}: {e}")
+        return True
 
 def fetch_m3u_urls(m3u_url):
     """Fetch video URLs, titles, logos, and groups."""
@@ -183,19 +203,13 @@ def process_video(video_url, title, logo, group, source_idx, source_name, conver
     video_id = len(converted_videos) + video_id_counter + 1
     output_folder = os.path.join(source_output_dir, f"video_{video_id}")
 
-    # Skip only if successfully converted
     if video_url in converted_videos:
-        info = converted_videos[video_url]
-        if info.get("m3u8_file") and os.path.exists(info["m3u8_file"]):
-            logging.info(f"Skipping successfully converted video: {video_url}")
-            return None
-        else:
-            logging.info(f"Retrying previously failed video: {video_url}")
+        logging.info(f"Skipping successfully converted video: {video_url}")
+        return None
 
     try:
         if not validate_url(video_url):
-            logging.warning(f"Skipping invalid/unreachable URL: {video_url}")
-            return None
+            return None  # Skip silently since logged in validate_url
 
         if download_video(video_url, temp_file):
             m3u8_file = convert_to_hls(temp_file, output_folder)
@@ -258,26 +272,15 @@ def main():
 
     video_id_counter = 0
     new_videos = []
-    processed_urls = set()
 
     # Process each source M3U
     for source_idx, source_url in enumerate(SOURCES):
         source_name = f"source_{source_idx + 1}"
         video_urls = fetch_m3u_urls(source_url)
 
-        # Filter URLs (retry failed ones)
-        new_urls = []
-        for url, title, logo, group in video_urls:
-            if url in converted_videos:
-                info = converted_videos[url]
-                if info.get("m3u8_file") and os.path.exists(info["m3u8_file"]):
-                    logging.info(f"Skipping successfully converted: {url}")
-                    continue
-                else:
-                    logging.info(f"Retrying failed URL: {url}")
-            new_urls.append((url, title, logo, group))
-        new_urls = new_urls[:MAX_VIDEOS_PER_SOURCE]
-        logging.info(f"Processing {len(new_urls)} URLs for {source_name}")
+        new_urls = [(url, title, logo, group) for url, title, logo, group in video_urls
+                    if url not in converted_videos]
+        logging.info(f"Processing {len(new_urls)} new URLs for {source_name}")
 
         with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
             future_to_url = {
@@ -288,7 +291,6 @@ def main():
                 result = future.result()
                 if result:
                     new_videos.append(result)
-                    processed_urls.add(result["url"])
                     video_id_counter += 1
 
     # Update converted videos
