@@ -2,16 +2,18 @@ name: Convert Videos to HLS
 
 on:
   schedule:
-    - cron: "0 */12 * * *"  # Run every 12 hours
-  workflow_dispatch:  # Allow manual trigger
+    - cron: "0 */12 * * *"  # Every 12 hours
+  workflow_dispatch:  # Manual trigger
 
 jobs:
   convert:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout Repository with Shallow Clone
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 1  # Shallow clone to reduce history
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -27,10 +29,16 @@ jobs:
       - name: Run Conversion Script
         run: python convert_to_hls.py
 
+      - name: Clean Unnecessary Files
+        run: |
+          rm -f conversion.log  # Remove log after run
+          find . -name "temp_*.mp4" -delete  # Remove any leftover temp files
+          find . -name "temp_*.mkv" -delete
+
       - name: Commit and Push Changes
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git add hls_output m3u_permanent master.m3u converted_videos.json conversion.log
+          git add hls_output m3u_permanent master.m3u converted_videos.json convert_to_hls.py .github/workflows
           git commit -m "Update HLS files, permanent M3Us, and master M3U" || echo "No changes to commit"
           git push
