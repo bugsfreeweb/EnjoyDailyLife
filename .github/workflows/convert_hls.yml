@@ -22,7 +22,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
 
       - name: Install Python dependencies
-        run: pip install urllib3
+        run: pip install urllib3 unidecode
 
       - name: Run Conversion Script
         run: python convert_to_hls.py
