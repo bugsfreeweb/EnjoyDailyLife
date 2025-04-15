@@ -25,12 +25,12 @@ SOURCE_GROUPS = {
 BASE_GITHUB_URL = "https://raw.githubusercontent.com/bugsfreeweb/EnjoyDailyLife/main/hls_output"
 FINAL_M3U = "master.m3u"
 CONVERTED_LOG = "converted_videos.json"
-MAX_VIDEOS_PER_SOURCE = 30  # Reduced for speed
-DOWNLOAD_TIMEOUT = 10  # Faster timeout
-MAX_WORKERS = 4  # Avoid overload
+MAX_VIDEOS_PER_SOURCE = 50  # Increased for more videos
+DOWNLOAD_TIMEOUT = 10
+MAX_WORKERS = 4
 DEFAULT_LOGO = "https://via.placeholder.com/150"
 
-# Setup logging (temporary)
+# Setup logging
 logging.basicConfig(filename='conversion.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def create_dirs():
@@ -60,7 +60,7 @@ def save_converted_videos(converted_videos):
         logging.error(f"Error saving {CONVERTED_LOG}: {e}")
 
 def validate_url(url):
-    """Check if URL is reachable (HEAD request)."""
+    """Check if URL is reachable."""
     try:
         req = urllib.request.Request(url, method="HEAD", headers={'User-Agent': 'Mozilla/5.0'})
         with urllib.request.urlopen(req, timeout=5) as response:
@@ -132,7 +132,7 @@ def convert_to_hls(input_file, output_folder):
         os.makedirs(output_folder, exist_ok=True)
         output_m3u8 = os.path.join(output_folder, "playlist.m3u8")
         cmd = [
-            "timeout", "30s",  # Limit FFmpeg to 30s
+            "timeout", "30s",
             "ffmpeg", "-i", input_file,
             "-c:v", "copy", "-c:a", "copy",
             "-f", "hls",
@@ -183,12 +183,16 @@ def process_video(video_url, title, logo, group, source_idx, source_name, conver
     video_id = len(converted_videos) + video_id_counter + 1
     output_folder = os.path.join(source_output_dir, f"video_{video_id}")
 
+    # Skip only if successfully converted
     if video_url in converted_videos:
-        logging.info(f"Skipping already converted video: {video_url}")
-        return None
+        info = converted_videos[video_url]
+        if info.get("m3u8_file") and os.path.exists(info["m3u8_file"]):
+            logging.info(f"Skipping successfully converted video: {video_url}")
+            return None
+        else:
+            logging.info(f"Retrying previously failed video: {video_url}")
 
     try:
-        # Validate URL
         if not validate_url(video_url):
             logging.warning(f"Skipping invalid/unreachable URL: {video_url}")
             return None
@@ -208,7 +212,6 @@ def process_video(video_url, title, logo, group, source_idx, source_name, conver
                         "logo": logo,
                         "group": group
                     }
-                    # Append to master.m3u incrementally
                     master_m3u_content.append(f"#EXTINF:-1 tvg-logo=\"{logo}\" group-title=\"{group}\",{title}")
                     master_m3u_content.append(github_m3u8_url)
                     write_partial_master_m3u(master_m3u_content)
@@ -226,7 +229,6 @@ def process_video(video_url, title, logo, group, source_idx, source_name, conver
 def main():
     create_dirs()
     converted_videos = load_converted_videos()
-    processed_urls = set(converted_videos.keys())
     master_m3u_content = ["#EXTM3U"]
     logging.info("Starting conversion process")
 
@@ -256,14 +258,26 @@ def main():
 
     video_id_counter = 0
     new_videos = []
+    processed_urls = set()
 
     # Process each source M3U
     for source_idx, source_url in enumerate(SOURCES):
         source_name = f"source_{source_idx + 1}"
         video_urls = fetch_m3u_urls(source_url)
 
-        new_urls = [(url, title, logo, group) for url, title, logo, group in video_urls if url not in processed_urls]
-        logging.info(f"Found {len(new_urls)} new URLs for {source_name}")
+        # Filter URLs (retry failed ones)
+        new_urls = []
+        for url, title, logo, group in video_urls:
+            if url in converted_videos:
+                info = converted_videos[url]
+                if info.get("m3u8_file") and os.path.exists(info["m3u8_file"]):
+                    logging.info(f"Skipping successfully converted: {url}")
+                    continue
+                else:
+                    logging.info(f"Retrying failed URL: {url}")
+            new_urls.append((url, title, logo, group))
+        new_urls = new_urls[:MAX_VIDEOS_PER_SOURCE]
+        logging.info(f"Processing {len(new_urls)} URLs for {source_name}")
 
         with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
             future_to_url = {
