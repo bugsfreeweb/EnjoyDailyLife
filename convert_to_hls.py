@@ -25,7 +25,7 @@ SOURCE_GROUPS = {
 BASE_GITHUB_URL = "https://raw.githubusercontent.com/bugsfreeweb/EnjoyDailyLife/main/hls_output"
 FINAL_M3U = "master.m3u"
 CONVERTED_LOG = "converted_videos.json"
-MAX_VIDEOS_PER_SOURCE = 5  # Limit videos per source per run
+MAX_VIDEOS_PER_SOURCE = 10  # Increased to process more videos
 DOWNLOAD_TIMEOUT = 30  # Seconds
 MAX_WORKERS = 4  # Concurrent downloads
 DEFAULT_LOGO = "https://via.placeholder.com/150"  # Placeholder for missing logos
@@ -75,21 +75,25 @@ def fetch_m3u_urls(m3u_url):
                 elif lines[i].startswith('#EXTINF'):
                     try:
                         # Extract title after comma
-                        title = lines[i].split(',', 1)[1].strip() if ',' in lines[i] else "Unknown"
-                        # Extract logo (e.g., tvg-logo="url")
+                        title = lines[i].split(',', 1)[1].strip() if ',' in lines[i] else f"Video_{len(urls)+1}"
+                        # Extract logo
                         logo_match = re.search(r'tvg-logo\s*=\s*"([^"]+)"', lines[i])
                         logo = logo_match.group(1) if logo_match else DEFAULT_LOGO
-                        # Transliterate title to English
+                        # Transliterate title
                         english_title = unidecode(title)
                         i += 1
                         if i < len(lines) and lines[i].strip() and not lines[i].startswith('#'):
                             url = lines[i].strip()
+                            # Check supported formats
+                            if not url.lower().endswith(('.mp4', '.mkv')):
+                                logging.warning(f"Skipping unsupported URL: {url}")
+                                continue
                             urls.append((url, english_title, logo, group))
                     except IndexError:
                         pass
                 i += 1
             logging.info(f"Fetched {len(urls)} URLs from {m3u_url}")
-            return urls[:MAX_VIDEOS_PER_SOURCE]  # Limit URLs
+            return urls[:MAX_VIDEOS_PER_SOURCE]
     except Exception as e:
         logging.error(f"Error fetching {m3u_url}: {e}")
         return []
@@ -142,7 +146,8 @@ def create_permanent_m3u(video_url, m3u8_file, video_id, title, logo, group):
 
 def process_video(video_url, title, logo, group, source_idx, source_name, converted_videos, video_id_counter):
     """Process a single video (download and convert)."""
-    temp_file = f"temp_{source_idx}_{int(time.time())}.mp4"  # Default to mp4
+    ext = "mp4" if video_url.lower().endswith(".mp4") else "mkv"
+    temp_file = f"temp_{source_idx}_{int(time.time())}.{ext}"
     source_output_dir = os.path.join(OUTPUT_DIR, source_name)
     video_id = len(converted_videos) + video_id_counter + 1
     output_folder = os.path.join(source_output_dir, f"video_{video_id}")
@@ -192,6 +197,8 @@ def main():
             if github_m3u8_url:
                 master_m3u_content.append(f"#EXTINF:-1 tvg-logo=\"{logo}\" group-title=\"{group}\",{title}")
                 master_m3u_content.append(github_m3u8_url)
+        else:
+            logging.warning(f"Skipping invalid existing video: {video_url} (m3u8 missing or invalid)")
 
     video_id_counter = 0
     new_videos = []
@@ -238,7 +245,7 @@ def main():
     try:
         with open(FINAL_M3U, "w") as f:
             f.write("\n".join(master_m3u_content))
-        logging.info(f"Master M3U written to {FINAL_M3U}")
+        logging.info(f"Master M3U written to {FINAL_M3U} with {len(master_m3u_content)//2} videos")
     except Exception as e:
         logging.error(f"Error writing {FINAL_M3U}: {e}")
 
