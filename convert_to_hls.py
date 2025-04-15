@@ -26,7 +26,7 @@ BASE_GITHUB_URL = "https://raw.githubusercontent.com/bugsfreeweb/EnjoyDailyLife/
 FINAL_M3U = "master.m3u"
 CONVERTED_LOG = "converted_videos.json"
 FAILED_LOG = "failed_urls.json"
-MAX_VIDEOS_PER_SOURCE = 30  # Reduced to control size
+MAX_VIDEOS_PER_SOURCE = 20  # Lowered for size
 DOWNLOAD_TIMEOUT = 15
 MAX_WORKERS = 4
 DEFAULT_LOGO = "https://via.placeholder.com/150"
@@ -46,14 +46,13 @@ def load_converted_videos():
         if os.path.exists(CONVERTED_LOG):
             with open(CONVERTED_LOG, 'r') as f:
                 data = json.load(f)
-            # Verify entries
             valid_data = {}
             for url, info in data.items():
                 m3u8_file = info.get("m3u8_file")
                 if m3u8_file and os.path.exists(m3u8_file):
                     valid_data[url] = info
                 else:
-                    logging.info(f"Removed invalid entry: {url}")
+                    logging.info(f"Ignored invalid entry: {url}")
             return valid_data
         return {}
     except Exception as e:
@@ -134,7 +133,7 @@ def download_video(url, output_path, retries=3):
             req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
             urllib.request.urlretrieve(req, output_path)
             logging.info(f"Downloaded {url} to {output_path}")
-            return True
+            return True, None
         except urllib.error.HTTPError as e:
             logging.warning(f"Attempt {attempt+1} failed for {url}: HTTP {e.code} - {e.reason}")
             failed_reason = f"HTTP {e.code}"
@@ -154,16 +153,17 @@ def download_video(url, output_path, retries=3):
     return False, failed_reason
 
 def convert_to_hls(input_file, output_folder):
-    """Convert MP4/MKV to HLS with smaller segments."""
+    """Convert MP4/MKV to HLS with low bitrate."""
     try:
         os.makedirs(output_folder, exist_ok=True)
         output_m3u8 = os.path.join(output_folder, "playlist.m3u8")
         cmd = [
             "timeout", "20s",
             "ffmpeg", "-i", input_file,
-            "-c:v", "copy", "-c:a", "copy",
+            "-c:v", "libx264", "-b:v", "1M",  # Cap bitrate
+            "-c:a", "aac", "-b:a", "128k",
             "-f", "hls",
-            "-hls_time", "5",  # Smaller segments
+            "-hls_time", "4",  # Smaller segments
             "-hls_list_size", "0",
             "-hls_segment_filename", os.path.join(output_folder, "segment_%03d.ts"),
             output_m3u8
@@ -203,7 +203,7 @@ def write_partial_master_m3u(master_m3u_content):
         logging.error(f"Error writing partial {FINAL_M3U}: {e}")
 
 def clean_orphaned_segments(output_folder, m3u8_file):
-    """Remove orphaned .ts files not in playlist.m3u8."""
+    """Remove orphaned .ts files."""
     try:
         if not os.path.exists(m3u8_file):
             return
