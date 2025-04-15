@@ -25,12 +25,12 @@ SOURCE_GROUPS = {
 BASE_GITHUB_URL = "https://raw.githubusercontent.com/bugsfreeweb/EnjoyDailyLife/main/hls_output"
 FINAL_M3U = "master.m3u"
 CONVERTED_LOG = "converted_videos.json"
-MAX_VIDEOS_PER_SOURCE = 50  # Reduced for speed
-DOWNLOAD_TIMEOUT = 15  # Faster timeout
-MAX_WORKERS = 8  # More workers
+MAX_VIDEOS_PER_SOURCE = 30  # Reduced for speed
+DOWNLOAD_TIMEOUT = 10  # Faster timeout
+MAX_WORKERS = 4  # Avoid overload
 DEFAULT_LOGO = "https://via.placeholder.com/150"
 
-# Setup logging (temporary, deleted after run)
+# Setup logging (temporary)
 logging.basicConfig(filename='conversion.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def create_dirs():
@@ -40,7 +40,7 @@ def create_dirs():
     logging.info(f"Created directories: {OUTPUT_DIR}, {M3U_PERMANENT_DIR}")
 
 def load_converted_videos():
-    """Load previously converted videos from JSON."""
+    """Load previously converted videos."""
     try:
         if os.path.exists(CONVERTED_LOG):
             with open(CONVERTED_LOG, 'r') as f:
@@ -51,7 +51,7 @@ def load_converted_videos():
         return {}
 
 def save_converted_videos(converted_videos):
-    """Save converted videos to JSON."""
+    """Save converted videos."""
     try:
         with open(CONVERTED_LOG, 'w') as f:
             json.dump(converted_videos, f, indent=2)
@@ -59,8 +59,17 @@ def save_converted_videos(converted_videos):
     except Exception as e:
         logging.error(f"Error saving {CONVERTED_LOG}: {e}")
 
+def validate_url(url):
+    """Check if URL is reachable (HEAD request)."""
+    try:
+        req = urllib.request.Request(url, method="HEAD", headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req, timeout=5) as response:
+            return response.status == 200
+    except urllib.error.URLError:
+        return False
+
 def fetch_m3u_urls(m3u_url):
-    """Fetch video URLs, titles, logos, and groups from an M3U playlist."""
+    """Fetch video URLs, titles, logos, and groups."""
     try:
         req = urllib.request.Request(m3u_url, headers={'User-Agent': 'Mozilla/5.0'})
         with urllib.request.urlopen(req, timeout=DOWNLOAD_TIMEOUT) as response:
@@ -97,31 +106,33 @@ def fetch_m3u_urls(m3u_url):
         logging.error(f"Unexpected error fetching {m3u_url}: {e}")
         return []
 
-def download_video(url, output_path, retries=3):
-    """Download video from URL with retries."""
+def download_video(url, output_path, retries=4):
+    """Download video with retries."""
+    logging.info(f"Attempting to download: {url}")
     for attempt in range(retries + 1):
         try:
             req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-            urllib.request.urlretrieve(url, output_path)
+            urllib.request.urlretrieve(req, output_path)
             logging.info(f"Downloaded {url} to {output_path}")
             return True
         except urllib.error.URLError as e:
             logging.warning(f"Attempt {attempt+1} failed for {url}: {e}")
             if attempt < retries:
-                time.sleep(1)
+                time.sleep(0.5)
         except Exception as e:
             logging.warning(f"Unexpected error on attempt {attempt+1} for {url}: {e}")
             if attempt < retries:
-                time.sleep(1)
+                time.sleep(0.5)
     logging.error(f"Failed to download {url} after {retries+1} attempts")
     return False
 
 def convert_to_hls(input_file, output_folder):
-    """Convert MP4/MKV to HLS using ffmpeg."""
+    """Convert MP4/MKV to HLS."""
     try:
         os.makedirs(output_folder, exist_ok=True)
         output_m3u8 = os.path.join(output_folder, "playlist.m3u8")
         cmd = [
+            "timeout", "30s",  # Limit FFmpeg to 30s
             "ffmpeg", "-i", input_file,
             "-c:v", "copy", "-c:a", "copy",
             "-f", "hls",
@@ -130,6 +141,7 @@ def convert_to_hls(input_file, output_folder):
             "-hls_segment_filename", os.path.join(output_folder, "segment_%03d.ts"),
             output_m3u8
         ]
+        logging.info(f"Converting {input_file}")
         result = subprocess.run(cmd, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         logging.info(f"Converted {input_file} to HLS at {output_m3u8}")
         return output_m3u8
@@ -141,7 +153,7 @@ def convert_to_hls(input_file, output_folder):
         return None
 
 def create_permanent_m3u(video_url, m3u8_file, video_id, title, logo, group):
-    """Create a permanent M3U file for a video."""
+    """Create a permanent M3U file."""
     try:
         relative_path = os.path.relpath(m3u8_file, OUTPUT_DIR)
         github_m3u8_url = f"{BASE_GITHUB_URL}/{relative_path.replace(os.sep, '/')}"
@@ -154,8 +166,17 @@ def create_permanent_m3u(video_url, m3u8_file, video_id, title, logo, group):
         logging.error(f"Error creating permanent M3U for {video_url}: {e}")
         return None, None
 
-def process_video(video_url, title, logo, group, source_idx, source_name, converted_videos, video_id_counter):
-    """Process a single video (download and convert)."""
+def write_partial_master_m3u(master_m3u_content):
+    """Write master.m3u incrementally."""
+    try:
+        with open(FINAL_M3U, "w") as f:
+            f.write("\n".join(master_m3u_content))
+        logging.info(f"Updated partial master.m3u with {(len(master_m3u_content)-1)//2} videos")
+    except Exception as e:
+        logging.error(f"Error writing partial {FINAL_M3U}: {e}")
+
+def process_video(video_url, title, logo, group, source_idx, source_name, converted_videos, video_id_counter, master_m3u_content):
+    """Process a single video."""
     ext = "mp4" if video_url.lower().endswith(".mp4") else "mkv"
     temp_file = f"temp_{source_idx}_{int(time.time())}.{ext}"
     source_output_dir = os.path.join(OUTPUT_DIR, source_name)
@@ -167,12 +188,17 @@ def process_video(video_url, title, logo, group, source_idx, source_name, conver
         return None
 
     try:
+        # Validate URL
+        if not validate_url(video_url):
+            logging.warning(f"Skipping invalid/unreachable URL: {video_url}")
+            return None
+
         if download_video(video_url, temp_file):
             m3u8_file = convert_to_hls(temp_file, output_folder)
             if m3u8_file:
                 permanent_m3u, github_m3u8_url = create_permanent_m3u(video_url, m3u8_file, video_id, title, logo, group)
                 if github_m3u8_url:
-                    return {
+                    result = {
                         "url": video_url,
                         "m3u8_file": m3u8_file,
                         "video_id": video_id,
@@ -182,8 +208,12 @@ def process_video(video_url, title, logo, group, source_idx, source_name, conver
                         "logo": logo,
                         "group": group
                     }
+                    # Append to master.m3u incrementally
+                    master_m3u_content.append(f"#EXTINF:-1 tvg-logo=\"{logo}\" group-title=\"{group}\",{title}")
+                    master_m3u_content.append(github_m3u8_url)
+                    write_partial_master_m3u(master_m3u_content)
+                    return result
     finally:
-        # Always clean temp file
         try:
             if os.path.exists(temp_file):
                 os.remove(temp_file)
@@ -200,7 +230,7 @@ def main():
     master_m3u_content = ["#EXTM3U"]
     logging.info("Starting conversion process")
 
-    # Include all existing videos
+    # Include existing videos
     existing_count = 0
     for video_url, info in converted_videos.items():
         m3u8_file = info.get("m3u8_file")
@@ -222,6 +252,7 @@ def main():
             existing_count += 1
             logging.warning(f"Retaining video without m3u8: {video_url}")
     logging.info(f"Included {existing_count} existing videos in master.m3u")
+    write_partial_master_m3u(master_m3u_content)
 
     video_id_counter = 0
     new_videos = []
@@ -236,7 +267,7 @@ def main():
 
         with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
             future_to_url = {
-                executor.submit(process_video, url, title, logo, group, source_idx, source_name, converted_videos, video_id_counter): url
+                executor.submit(process_video, url, title, logo, group, source_idx, source_name, converted_videos, video_id_counter, master_m3u_content): url
                 for url, title, logo, group in new_urls
             }
             for future in as_completed(future_to_url):
@@ -257,21 +288,10 @@ def main():
             "logo": video["logo"],
             "group": video["group"]
         }
-        master_m3u_content.append(f"#EXTINF:-1 tvg-logo=\"{video['logo']}\" group-title=\"{video['group']}\",{title}")
-        master_m3u_content.append(video["github_m3u8_url"])
 
     logging.info(f"Added {len(new_videos)} new videos to master.m3u")
-
-    # Save converted videos
     save_converted_videos(converted_videos)
-
-    # Write master M3U
-    try:
-        with open(FINAL_M3U, "w") as f:
-            f.write("\n".join(master_m3u_content))
-        logging.info(f"Master M3U written to {FINAL_M3U} with {(len(master_m3u_content)-1)//2} videos")
-    except Exception as e:
-        logging.error(f"Error writing {FINAL_M3U}: {e}")
+    write_partial_master_m3u(master_m3u_content)
 
 if __name__ == "__main__":
     main()
