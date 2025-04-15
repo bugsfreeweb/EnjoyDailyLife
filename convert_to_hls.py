@@ -4,10 +4,12 @@ import urllib.request
 import time
 import json
 import logging
+import re
 from urllib.parse import urljoin
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import urllib.error
+from unidecode import unidecode
 
 # Configuration
 OUTPUT_DIR = "hls_output"
@@ -16,12 +18,17 @@ SOURCES = [
     "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/Movies/Hollywood/Movies.m3u",
     "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/Movies/Worldwide/Movies.m3u"
 ]
+SOURCE_GROUPS = {
+    SOURCES[0]: "Hollywood",
+    SOURCES[1]: "Worldwide"
+}
 BASE_GITHUB_URL = "https://raw.githubusercontent.com/bugsfreeweb/EnjoyDailyLife/main/hls_output"
 FINAL_M3U = "master.m3u"
 CONVERTED_LOG = "converted_videos.json"
 MAX_VIDEOS_PER_SOURCE = 5  # Limit videos per source per run
 DOWNLOAD_TIMEOUT = 30  # Seconds
 MAX_WORKERS = 4  # Concurrent downloads
+DEFAULT_LOGO = "https://via.placeholder.com/150"  # Placeholder for missing logos
 
 # Setup logging
 logging.basicConfig(filename='conversion.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -53,12 +60,34 @@ def save_converted_videos(converted_videos):
         logging.error(f"Error saving {CONVERTED_LOG}: {e}")
 
 def fetch_m3u_urls(m3u_url):
-    """Fetch video URLs from an M3U playlist."""
+    """Fetch video URLs, titles, logos, and groups from an M3U playlist."""
     try:
         req = urllib.request.Request(m3u_url, headers={'User-Agent': 'Mozilla/5.0'})
         with urllib.request.urlopen(req, timeout=DOWNLOAD_TIMEOUT) as response:
             content = response.read().decode('utf-8')
-            urls = [line.strip() for line in content.splitlines() if line.strip() and not line.startswith('#')]
+            urls = []
+            lines = content.splitlines()
+            i = 0
+            group = SOURCE_GROUPS.get(m3u_url, "Unknown")  # Default group from source
+            while i < len(lines):
+                if lines[i].startswith('#EXTGRP'):
+                    group = lines[i].split(':', 1)[1].strip() if ':' in lines[i] else group
+                elif lines[i].startswith('#EXTINF'):
+                    try:
+                        # Extract title after comma
+                        title = lines[i].split(',', 1)[1].strip() if ',' in lines[i] else "Unknown"
+                        # Extract logo (e.g., tvg-logo="url")
+                        logo_match = re.search(r'tvg-logo\s*=\s*"([^"]+)"', lines[i])
+                        logo = logo_match.group(1) if logo_match else DEFAULT_LOGO
+                        # Transliterate title to English
+                        english_title = unidecode(title)
+                        i += 1
+                        if i < len(lines) and lines[i].strip() and not lines[i].startswith('#'):
+                            url = lines[i].strip()
+                            urls.append((url, english_title, logo, group))
+                    except IndexError:
+                        pass
+                i += 1
             logging.info(f"Fetched {len(urls)} URLs from {m3u_url}")
             return urls[:MAX_VIDEOS_PER_SOURCE]  # Limit URLs
     except Exception as e:
@@ -69,7 +98,7 @@ def download_video(url, output_path):
     """Download video from URL."""
     try:
         req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        urllib.request.urlretrieve(url, output_path)  # Removed context parameter
+        urllib.request.urlretrieve(url, output_path)
         logging.info(f"Downloaded {url} to {output_path}")
         return True
     except urllib.error.URLError as e:
@@ -97,23 +126,23 @@ def convert_to_hls(input_file, output_folder):
         logging.error(f"Error converting {input_file}: {e}")
         return None
 
-def create_permanent_m3u(video_url, m3u8_file, video_id):
+def create_permanent_m3u(video_url, m3u8_file, video_id, title, logo, group):
     """Create a permanent M3U file for a video."""
     try:
         relative_path = os.path.relpath(m3u8_file, OUTPUT_DIR)
         github_m3u8_url = f"{BASE_GITHUB_URL}/{relative_path.replace(os.sep, '/')}"
         permanent_m3u = os.path.join(M3U_PERMANENT_DIR, f"video_{video_id}.m3u")
         with open(permanent_m3u, 'w') as f:
-            f.write(f"#EXTM3U\n#EXTINF:-1,Video_{video_id}\n{github_m3u8_url}\n")
+            f.write(f"#EXTM3U\n#EXTINF:-1 tvg-logo=\"{logo}\" group-title=\"{group}\",{title}\n{github_m3u8_url}\n")
         logging.info(f"Created permanent M3U: {permanent_m3u}")
         return permanent_m3u, github_m3u8_url
     except Exception as e:
         logging.error(f"Error creating permanent M3U for {video_url}: {e}")
         return None, None
 
-def process_video(video_url, source_idx, source_name, converted_videos, video_id_counter):
+def process_video(video_url, title, logo, group, source_idx, source_name, converted_videos, video_id_counter):
     """Process a single video (download and convert)."""
-    temp_file = f"temp_{source_idx}_{int(time.time())}.mp4"  # Default to mp4 for simplicity
+    temp_file = f"temp_{source_idx}_{int(time.time())}.mp4"  # Default to mp4
     source_output_dir = os.path.join(OUTPUT_DIR, source_name)
     video_id = len(converted_videos) + video_id_counter + 1
     output_folder = os.path.join(source_output_dir, f"video_{video_id}")
@@ -129,14 +158,17 @@ def process_video(video_url, source_idx, source_name, converted_videos, video_id
             logging.warning(f"Failed to delete {temp_file}: {e}")
 
         if m3u8_file:
-            permanent_m3u, github_m3u8_url = create_permanent_m3u(video_url, m3u8_file, video_id)
+            permanent_m3u, github_m3u8_url = create_permanent_m3u(video_url, m3u8_file, video_id, title, logo, group)
             if github_m3u8_url:
                 return {
                     "url": video_url,
                     "m3u8_file": m3u8_file,
                     "video_id": video_id,
                     "source": source_name,
-                    "github_m3u8_url": github_m3u8_url
+                    "github_m3u8_url": github_m3u8_url,
+                    "title": title,
+                    "logo": logo,
+                    "group": group
                 }
     return None
 
@@ -152,10 +184,13 @@ def main():
         m3u8_file = info.get("m3u8_file")
         video_id = info.get("video_id")
         source_name = info.get("source")
+        title = info.get("title", f"Video_{video_id}")
+        logo = info.get("logo", DEFAULT_LOGO)
+        group = info.get("group", "Unknown")
         if m3u8_file and os.path.exists(m3u8_file):
-            permanent_m3u, github_m3u8_url = create_permanent_m3u(video_url, m3u8_file, video_id)
+            permanent_m3u, github_m3u8_url = create_permanent_m3u(video_url, m3u8_file, video_id, title, logo, group)
             if github_m3u8_url:
-                master_m3u_content.append(f"#EXTINF:-1,{source_name}_video_{video_id}")
+                master_m3u_content.append(f"#EXTINF:-1 tvg-logo=\"{logo}\" group-title=\"{group}\",{title}")
                 master_m3u_content.append(github_m3u8_url)
 
     video_id_counter = 0
@@ -167,14 +202,14 @@ def main():
         video_urls = fetch_m3u_urls(source_url)
 
         # Filter new URLs
-        new_urls = [url for url in video_urls if url not in processed_urls]
+        new_urls = [(url, title, logo, group) for url, title, logo, group in video_urls if url not in processed_urls]
         logging.info(f"Found {len(new_urls)} new URLs for {source_name}")
 
         # Download and process concurrently
         with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
             future_to_url = {
-                executor.submit(process_video, url, source_idx, source_name, converted_videos, video_id_counter): url
-                for url in new_urls
+                executor.submit(process_video, url, title, logo, group, source_idx, source_name, converted_videos, video_id_counter): url
+                for url, title, logo, group in new_urls
             }
             for future in as_completed(future_to_url):
                 result = future.result()
@@ -188,9 +223,12 @@ def main():
         converted_videos[video["url"]] = {
             "m3u8_file": video["m3u8_file"],
             "video_id": video["video_id"],
-            "source": video["source"]
+            "source": video["source"],
+            "title": video["title"],
+            "logo": video["logo"],
+            "group": video["group"]
         }
-        master_m3u_content.append(f"#EXTINF:-1,{video['source']}_video_{video['video_id']}")
+        master_m3u_content.append(f"#EXTINF:-1 tvg-logo=\"{video['logo']}\" group-title=\"{video['group']}\",{video['title']}")
         master_m3u_content.append(video["github_m3u8_url"])
 
     # Save updated converted videos
