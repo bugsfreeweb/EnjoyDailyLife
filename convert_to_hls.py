@@ -69,7 +69,7 @@ def download_video(url, output_path):
     """Download video from URL."""
     try:
         req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        urllib.request.urlretrieve(url, output_path, context=None)
+        urllib.request.urlretrieve(url, output_path)  # Removed context parameter
         logging.info(f"Downloaded {url} to {output_path}")
         return True
     except urllib.error.URLError as e:
