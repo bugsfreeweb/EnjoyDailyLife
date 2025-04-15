@@ -1,3 +1,19 @@
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/zqhO44oc0pWM32seJeXMcjPLvwV.jpg" group-title="Hollywood",Los Caballeros del Zodiaco (2023)
 https://raw.githubusercontent.com/bugsfreeweb/EnjoyDailyLife/main/hls_output/source_1/video_1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/zjZOZ0Oe7HLT8su1OvCkjaWkjHg.jpg" group-title="Hollywood",Hereje (2024)CAM SUB
+https://raw.githubusercontent.com/bugsfreeweb/EnjoyDailyLife/main/hls_output/source_1/video_2/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/3xOYf938hlGXR7Epta7jH2CjCba.jpg" group-title="Hollywood",The Shed (2019)
+https://raw.githubusercontent.com/bugsfreeweb/EnjoyDailyLife/main/hls_output/source_1/video_2/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Worldwide",intro PlayTV
+https://raw.githubusercontent.com/bugsfreeweb/EnjoyDailyLife/main/hls_output/source_2/video_4/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Worldwide",EL CODIGO ENIGMA
+https://raw.githubusercontent.com/bugsfreeweb/EnjoyDailyLife/main/hls_output/source_2/video_4/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Worldwide",HACKER
+https://raw.githubusercontent.com/bugsfreeweb/EnjoyDailyLife/main/hls_output/source_2/video_4/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Worldwide",MI Pobre Angelito 2
+https://raw.githubusercontent.com/bugsfreeweb/EnjoyDailyLife/main/hls_output/source_2/video_4/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Worldwide",MI POBRE ANGELITO 1
+https://raw.githubusercontent.com/bugsfreeweb/EnjoyDailyLife/main/hls_output/source_2/video_4/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Worldwide",PERRO FIEL
+https://raw.githubusercontent.com/bugsfreeweb/EnjoyDailyLife/main/hls_output/source_2/video_4/playlist.m3u8
