@@ -1,0 +1,36 @@
+name: Convert Videos to HLS
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"  # Run every 12 hours
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Install Python dependencies
+        run: pip install urllib3
+
+      - name: Run Conversion Script
+        run: python convert_to_hls.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add hls_output master.m3u
+          git commit -m "Update HLS files and master M3U" || echo "No changes to commit"
+          git push
