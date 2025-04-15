@@ -30,17 +30,20 @@ jobs:
       - name: Run Conversion Script
         run: python convert_to_hls.py
 
-      - name: Upload Log for Debugging
+      - name: Upload Logs for Debugging
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: conversion-log
-          path: conversion.log
+          name: conversion-logs
+          path: |
+            conversion.log
+            failed_urls.json
           retention-days: 1
 
       - name: Clean Unnecessary Files
         run: |
           rm -f conversion.log
+          rm -f failed_urls.json
           find . -name "temp_*.mp4" -delete
           find . -name "temp_*.mkv" -delete
 
