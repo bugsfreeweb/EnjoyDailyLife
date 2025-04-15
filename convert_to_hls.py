@@ -26,7 +26,7 @@ BASE_GITHUB_URL = "https://raw.githubusercontent.com/bugsfreeweb/EnjoyDailyLife/
 FINAL_M3U = "master.m3u"
 CONVERTED_LOG = "converted_videos.json"
 FAILED_LOG = "failed_urls.json"
-MAX_VIDEOS_PER_SOURCE = 50
+MAX_VIDEOS_PER_SOURCE = 30  # Reduced to control size
 DOWNLOAD_TIMEOUT = 15
 MAX_WORKERS = 4
 DEFAULT_LOGO = "https://via.placeholder.com/150"
@@ -41,11 +41,20 @@ def create_dirs():
     logging.info(f"Created directories: {OUTPUT_DIR}, {M3U_PERMANENT_DIR}")
 
 def load_converted_videos():
-    """Load converted videos."""
+    """Load and verify converted videos."""
     try:
         if os.path.exists(CONVERTED_LOG):
             with open(CONVERTED_LOG, 'r') as f:
-                return json.load(f)
+                data = json.load(f)
+            # Verify entries
+            valid_data = {}
+            for url, info in data.items():
+                m3u8_file = info.get("m3u8_file")
+                if m3u8_file and os.path.exists(m3u8_file):
+                    valid_data[url] = info
+                else:
+                    logging.info(f"Removed invalid entry: {url}")
+            return valid_data
         return {}
     except Exception as e:
         logging.error(f"Error loading {CONVERTED_LOG}: {e}")
@@ -108,7 +117,7 @@ def fetch_m3u_urls(m3u_url):
                     except IndexError:
                         logging.warning(f"Invalid #EXTINF at line {i+1}")
                 i += 1
-            logging.info(f"Fetched {len(urls)} URLs from {m3u_url}: {urls[:5]}...")
+            logging.info(f"Fetched {len(urls)} URLs from {m3u_url}: {urls[:3]}...")
             return urls[:MAX_VIDEOS_PER_SOURCE]
     except urllib.error.URLError as e:
         logging.error(f"Error fetching {m3u_url}: {e}")
@@ -117,7 +126,7 @@ def fetch_m3u_urls(m3u_url):
         logging.error(f"Unexpected error fetching {m3u_url}: {e}")
         return []
 
-def download_video(url, output_path, retries=4):
+def download_video(url, output_path, retries=3):
     """Download video with retries."""
     logging.info(f"Attempting to download: {url}")
     for attempt in range(retries + 1):
@@ -126,28 +135,35 @@ def download_video(url, output_path, retries=4):
             urllib.request.urlretrieve(req, output_path)
             logging.info(f"Downloaded {url} to {output_path}")
             return True
+        except urllib.error.HTTPError as e:
+            logging.warning(f"Attempt {attempt+1} failed for {url}: HTTP {e.code} - {e.reason}")
+            failed_reason = f"HTTP {e.code}"
+            if attempt == retries:
+                return False, failed_reason
         except urllib.error.URLError as e:
             logging.warning(f"Attempt {attempt+1} failed for {url}: {e}")
-            if attempt < retries:
-                time.sleep(0.5)
+            failed_reason = str(e.reason)
+            if attempt == retries:
+                return False, failed_reason
         except Exception as e:
             logging.warning(f"Unexpected error on attempt {attempt+1} for {url}: {e}")
-            if attempt < retries:
-                time.sleep(0.5)
-    logging.error(f"Failed to download {url} after {retries+1} attempts")
-    return False
+            failed_reason = str(e)
+            if attempt == retries:
+                return False, failed_reason
+        time.sleep(0.5)
+    return False, failed_reason
 
 def convert_to_hls(input_file, output_folder):
-    """Convert MP4/MKV to HLS."""
+    """Convert MP4/MKV to HLS with smaller segments."""
     try:
         os.makedirs(output_folder, exist_ok=True)
         output_m3u8 = os.path.join(output_folder, "playlist.m3u8")
         cmd = [
-            "timeout", "20s",  # Faster timeout
+            "timeout", "20s",
             "ffmpeg", "-i", input_file,
             "-c:v", "copy", "-c:a", "copy",
             "-f", "hls",
-            "-hls_time", "10",
+            "-hls_time", "5",  # Smaller segments
             "-hls_list_size", "0",
             "-hls_segment_filename", os.path.join(output_folder, "segment_%03d.ts"),
             output_m3u8
@@ -186,6 +202,21 @@ def write_partial_master_m3u(master_m3u_content):
     except Exception as e:
         logging.error(f"Error writing partial {FINAL_M3U}: {e}")
 
+def clean_orphaned_segments(output_folder, m3u8_file):
+    """Remove orphaned .ts files not in playlist.m3u8."""
+    try:
+        if not os.path.exists(m3u8_file):
+            return
+        with open(m3u8_file, 'r') as f:
+            m3u8_content = f.read()
+        used_segments = set(re.findall(r'segment_\d+\.ts', m3u8_content))
+        for file in os.listdir(output_folder):
+            if file.endswith('.ts') and file not in used_segments:
+                os.remove(os.path.join(output_folder, file))
+                logging.info(f"Removed orphaned segment: {file}")
+    except Exception as e:
+        logging.warning(f"Error cleaning segments in {output_folder}: {e}")
+
 def process_video(video_url, title, logo, group, source_idx, source_name, converted_videos, video_id_counter, master_m3u_content, failed_urls):
     """Process a single video."""
     ext = "mp4" if video_url.lower().endswith(".mp4") else "mkv"
@@ -199,9 +230,11 @@ def process_video(video_url, title, logo, group, source_idx, source_name, conver
         return None
 
     try:
-        if download_video(video_url, temp_file):
+        success, reason = download_video(video_url, temp_file)
+        if success:
             m3u8_file = convert_to_hls(temp_file, output_folder)
             if m3u8_file:
+                clean_orphaned_segments(output_folder, m3u8_file)
                 permanent_m3u, github_m3u8_url = create_permanent_m3u(video_url, m3u8_file, video_id, title, logo, group)
                 if github_m3u8_url:
                     result = {
@@ -218,10 +251,12 @@ def process_video(video_url, title, logo, group, source_idx, source_name, conver
                     master_m3u_content.append(github_m3u8_url)
                     write_partial_master_m3u(master_m3u_content)
                     return result
+                else:
+                    failed_urls.append({"url": video_url, "reason": "Permanent M3U creation failed"})
             else:
                 failed_urls.append({"url": video_url, "reason": "Conversion failed"})
         else:
-            failed_urls.append({"url": video_url, "reason": "Download failed"})
+            failed_urls.append({"url": video_url, "reason": reason})
     finally:
         try:
             if os.path.exists(temp_file):
@@ -250,6 +285,7 @@ def main():
         group = info.get("group", "Unknown")
         github_m3u8_url = info.get("github_m3u8_url")
         if m3u8_file and os.path.exists(m3u8_file):
+            clean_orphaned_segments(os.path.dirname(m3u8_file), m3u8_file)
             permanent_m3u, github_m3u8_url = create_permanent_m3u(video_url, m3u8_file, video_id, title, logo, group)
             if github_m3u8_url:
                 master_m3u_content.append(f"#EXTINF:-1 tvg-logo=\"{logo}\" group-title=\"{group}\",{title}")
