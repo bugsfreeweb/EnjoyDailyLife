@@ -1,0 +1,51 @@
+name: Generate Master M3U
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"  # Every 12 hours
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install urllib3 unidecode
+
+      - name: Run Generation Script
+        run: python generate_m3u.py
+
+      - name: Upload Log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: generate-log
+          path: generate.log
+          retention-days: 1
+
+      - name: Clean Unnecessary Files
+        run: rm -f generate.log
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add master.m3u m3u_permanent video_metadata.json generate_m3u.py .github/workflows
+          git commit -m "Update master M3U with raw URLs" || echo "No changes"
+          for i in {1..3}; do
+            git push && break
+            echo "Push attempt $i failed, retrying..."
+            sleep 5
+          done
