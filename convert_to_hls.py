@@ -9,8 +9,8 @@ from pathlib import Path
 # Configuration
 OUTPUT_DIR = "hls_output"
 SOURCES = [
-    "https://example.com/playlist1.m3u",
-    "https://example.com/playlist2.m3u"
+    "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/Movies/Hollywood/Movies.m3u",
+    "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/Movies/Worldwide/Movies.m3u"
 ]  # Replace with your M3U URLs
 BASE_GITHUB_URL = "https://raw.githubusercontent.com/bugsfreeweb/EnjoyDailyLife/main/hls_output"
 FINAL_M3U = "master.m3u"
