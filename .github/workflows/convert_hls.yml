@@ -8,20 +8,21 @@ on:
 jobs:
   convert:
     runs-on: ubuntu-latest
+    timeout-minutes: 30  # Fail after 30 minutes
 
     steps:
       - name: Checkout Repository with Shallow Clone
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1  # Shallow clone to reduce history
+          fetch-depth: 1
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
-      - name: Install ffmpeg
-        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - name: Install ffmpeg and timeout
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg coreutils
 
       - name: Install Python dependencies
         run: pip install urllib3 unidecode
@@ -31,8 +32,8 @@ jobs:
 
       - name: Clean Unnecessary Files
         run: |
-          rm -f conversion.log  # Remove log after run
-          find . -name "temp_*.mp4" -delete  # Remove any leftover temp files
+          rm -f conversion.log
+          find . -name "temp_*.mp4" -delete
           find . -name "temp_*.mkv" -delete
 
       - name: Commit and Push Changes
