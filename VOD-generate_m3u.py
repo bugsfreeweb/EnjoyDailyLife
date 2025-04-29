@@ -9,9 +9,8 @@ from unidecode import unidecode
 # Configuration
 M3U_PERMANENT_DIR = "m3u_permanent"
 SOURCES = [
-    "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/Movies/Hollywood/Movies.m3u",
-    "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/Movies/Worldwide/Movies.m3u"
-    #"https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/Movies/VOD/Movies.m3u"
+    "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/Movies/VOD/Movies.m3u",
+    "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/Movies/WorldCollection/Movies.m3u"    
 ]
 SOURCE_GROUPS = {
     SOURCES[0]: "Hollywood",
@@ -52,8 +51,8 @@ def fetch_m3u_urls(m3u_url):
                         i += 1
                         if i < len(lines) and lines[i].strip() and not lines[i].startswith('#'):
                             url = lines[i].strip()
-                            # if not url.lower().endswith(('.mp4', '.mkv','.m3u8')):
-                            if not url.lower().endswith(('.mp4', '.mkv')):
+                            if not url.lower().endswith(('.mp4', '.mkv','.m3u8')):
+                            # if not url.lower().endswith(('.mp4', '.mkv')):
                                 logging.warning(f"Skipping unsupported URL: {url}")
                                 continue
                             urls.append((url, english_title, logo, group))
