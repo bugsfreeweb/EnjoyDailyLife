@@ -25,7 +25,7 @@ jobs:
         run: pip install urllib3 unidecode
 
       - name: Run Generation Script
-        run: python generate_m3u.py
+        run: python VOD-generate_m3u.py
 
       - name: Upload Log
         if: always()
@@ -42,7 +42,7 @@ jobs:
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git add VOD/master_vod.m3u m3u_permanent video_metadata.json generate_m3u.py .github/workflows
+          git add VOD/master_vod.m3u m3u_permanent video_metadata.json VOD-generate_m3u.py .github/workflows
           git commit -m "Update master M3U with raw URLs" || echo "No changes"
           for i in {1..3}; do
             git push && break
