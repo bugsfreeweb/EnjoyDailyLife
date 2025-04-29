@@ -19,7 +19,7 @@ SOURCE_GROUPS = {
 FINAL_M3U = "master.m3u"
 METADATA_JSON = "video_metadata.json"
 DOWNLOAD_TIMEOUT = 15
-DEFAULT_LOGO = "https://via.placeholder.com/150"
+DEFAULT_LOGO = "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/BugsfreeLogo/default-logo.png"
 
 # Setup logging
 logging.basicConfig(filename='generate.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
