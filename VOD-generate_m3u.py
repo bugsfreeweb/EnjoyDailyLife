@@ -16,7 +16,7 @@ SOURCE_GROUPS = {
     SOURCES[0]: "Hollywood",
     SOURCES[1]: "Worldwide"
 }
-FINAL_M3U = "VOD/master_vod.m3u"
+FINAL_M3U = "./VOD/master_vod.m3u"
 METADATA_JSON = "video_metadata.json"
 DOWNLOAD_TIMEOUT = 15
 DEFAULT_LOGO = "https://via.placeholder.com/150"
