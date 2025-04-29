@@ -16,7 +16,7 @@ SOURCE_GROUPS = {
     SOURCES[0]: "Hollywood",
     SOURCES[1]: "Worldwide"
 }
-FINAL_M3U = "master.m3u"
+FINAL_M3U = "VOD/master_vod.m3u"
 METADATA_JSON = "video_metadata.json"
 DOWNLOAD_TIMEOUT = 15
 DEFAULT_LOGO = "https://via.placeholder.com/150"
@@ -77,7 +77,7 @@ def save_metadata(metadata):
         logging.error(f"Error saving {METADATA_JSON}: {e}")
 
 def write_master_m3u(videos):
-    """Write master.m3u with raw URLs."""
+    """Write VOD/master_vod.m3u with raw URLs."""
     try:
         with open(FINAL_M3U, 'w') as f:
             f.write("#EXTM3U\n")
