@@ -13,6 +13,7 @@ SOURCES = [
     "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/Movies/WorldCollection/Movies.m3u",
     "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/Movies/Worldwide/Movies.m3u",
     "https://raw.githubusercontent.com/michelotero25/oteroiptv.live/refs/heads/master/Vod%20prueba.m3u",
+    "https://raw.githubusercontent.com/PuteraPerlis74/Tv/refs/heads/main/MY%20FILM",
     "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/Movies/Hollywood/Movies.m3u"
 ]
 SOURCE_GROUPS = {
