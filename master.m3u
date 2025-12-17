@@ -1,126 +1,128 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/eR4MDbv9lnwOXmqXPy4B7uSipUx.jpg" group-title="Worldwide",Prebet Lapok -1979
-https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Prebet%20Lapok.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BODIxZDA1ZmMtZTM0NC00YmM0LWJiNjEtMGQ4ZTdiODcxMTczXkEyXkFqcGdeQXVyNDg5MDMxNjQ@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Sembilu - 1994
-https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Sembilu.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMDkzMWQzYTgtNThkNS00MmEzLWJmZTItY2MwMzBhMzNlNGU0XkEyXkFqcGdeQXVyMjQyMTUzNzY@._V1_.jpg" group-title="Worldwide",Darah Satria - 1983
+https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Darah%20Satria.mp4
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Bara_%281999_film%29.jpg/220px-Bara_%281999_film%29.jpg" group-title="Worldwide",Bara - 1999
 https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Bara.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BYmZiODBkMzEtNjYzMS00Yjc0LWE3ZjEtMTc1M2ZhNDhmODg1L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMzU0NzkwMDg@._V1_.jpg" group-title="Worldwide",Setinggan - 1981
+https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Setinggan.mp4
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BZDZiMWI2MDctYmVkMy00OTdmLTkxOGItNTcxYTM3ZmU1ZmE0XkEyXkFqcGdeQXVyNDkyMzMyODM@._V1_.jpg" group-title="Worldwide",Pening Pening Lalat - 1990
 https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Pening%20Pening%20Lalat.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BOWI5MzY1YmYtM2Y2My00ZWZmLWE5ZGMtZjI2MDA0ZjY4ZGE2XkEyXkFqcGdeQXVyMTMzMDI1NDAw._V1_.jpg" group-title="Worldwide",Da Di Du - 1981
-https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Da%20Di%20Du.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/4n7Efk6Hfd9nTiku4vqxND7Wx0a.jpg" group-title="Worldwide",Azura - 1984
+https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Azura.mp4
+#EXTINF:-1 tvg-logo="https://a.ltrbxd.com/resized/film-poster/7/6/1/4/3/1/761431-kanta-serigala-0-230-0-345-crop.jpg?v=a56a9cffd5" group-title="Worldwide",Kanta Serigala - 1991
+https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Kanta%20Serigala.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BZWU1ODNiNGQtZTQyMy00MTI2LWIxMTYtYWIyNDM4NmMwMDBlXkEyXkFqcGdeQXVyMTMzMDI1NDAw._V1_.jpg" group-title="Worldwide",Misteri Rumah Tua - 1987
+https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Misteri%20Rumah%20Tua.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BODIxZDA1ZmMtZTM0NC00YmM0LWJiNjEtMGQ4ZTdiODcxMTczXkEyXkFqcGdeQXVyNDg5MDMxNjQ@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Sembilu - 1994
+https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Sembilu.mp4
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BYTc1ODRkODctYjIzYS00YTNhLWFiMGYtMjI4Njg5NjUwMDBkXkEyXkFqcGdeQXVyMDM3MzU0Ng@@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Sikit Punya Gila - 1982
 https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Sikit%20Punya%20Gila.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BYTU0ZDRiYmItYjUzYy00YTA0LWFhNDAtZjJhZDNiZDJiYmI2XkEyXkFqcGdeQXVyMjgzNDQyMjE@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Sayang Salmah - 1995
+https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Sayang%20Salmah.mp4
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/ms/d/d2/Kembara-seniman-jalanan-1-.jpg" group-title="Worldwide",Kembara Seniman Jalanan - 1986
 https://worker-kasyah.buntai.workers.dev/0:/movie/Malay/Kembara%20Seniman%20Jalanan.mp4
 #EXTINF:-1 tvg-logo="https://images.plex.tv/photo?size=large-1280&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2Fk3G9QYxGKAXc0j8ShR774LNXLDi.jpg" group-title="Worldwide",Rombongan Cik Kiah Ke Sukan Komanwel - 1998
 https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Rombongan%20Cik%20Kiah%20ke%20Sukan%20Komanwel.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BZWU1ODNiNGQtZTQyMy00MTI2LWIxMTYtYWIyNDM4NmMwMDBlXkEyXkFqcGdeQXVyMTMzMDI1NDAw._V1_.jpg" group-title="Worldwide",Misteri Rumah Tua - 1987
-https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Misteri%20Rumah%20Tua.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BYmZiODBkMzEtNjYzMS00Yjc0LWE3ZjEtMTc1M2ZhNDhmODg1L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMzU0NzkwMDg@._V1_.jpg" group-title="Worldwide",Setinggan - 1981
-https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Setinggan.mp4
-#EXTINF:-1 tvg-logo="https://a.ltrbxd.com/resized/film-poster/7/6/1/4/3/1/761431-kanta-serigala-0-230-0-345-crop.jpg?v=a56a9cffd5" group-title="Worldwide",Kanta Serigala - 1991
-https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Kanta%20Serigala.mp4
-#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-g6-sSOyuc24Jpyr7l8AOIS5EwuXWsSIfytxYyKrGm0FNuiT8KbrD9XCd3GY0Q7thi5cjpEfL2XnA9v7Xw6Ey7Ttf3pJ1q8_2iNsCJ9VH-httA2ZoAozwcW0ROSxV0K5InAqQv6hU8uw/s320/Cinta+Metropolitan.jpg" group-title="Worldwide",Cinta Metropolitan - 1994
-https://worker-kasyah.buntai.workers.dev/0:/movie/Malay/Cinta%20Metropolitan%20(1996)%20HDRip%201080p.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/4n7Efk6Hfd9nTiku4vqxND7Wx0a.jpg" group-title="Worldwide",Azura - 1984
-https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Azura.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BZGM4MWZiZDAtNmU3NC00NDZmLWI2ZmMtZjY4ZmNkY2QyYjM0XkEyXkFqcGdeQXVyMDM3MzU0Ng@@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Maria Mariana 2 - 1998
-https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Maria%20Mariana%20II.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BZGUxNTQ2MjYtNzExMy00NGU3LTljMzQtYTYyYzhhY2UyMGE5XkEyXkFqcGdeQXVyNDkyMzMyODM@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Sembilu 2 - 1995
-https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Sembilu%20II.mp4
-#EXTINF:-1 tvg-logo="https://a.ltrbxd.com/resized/film-poster/1/7/2/1/2/2/172122-guru-badul-0-230-0-345-crop.jpg?v=ba722959bd" group-title="Worldwide",Guru Badul - 1988
-https://worker-delicate-rain-inas.buntai.workers.dev/0:/movie/Malay/Guru%20Badul.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/w1Krdhc6SpXxRuVrxCIawtz3h6K.jpg" group-title="Worldwide",Orang Kampung Otak Kimia - 1990
 https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Orang%20Kampung%20Otak%20Kimia.mp4
+#EXTINF:-1 tvg-logo="https://a.ltrbxd.com/resized/film-poster/1/7/2/1/2/2/172122-guru-badul-0-230-0-345-crop.jpg?v=ba722959bd" group-title="Worldwide",Guru Badul - 1988
+https://worker-delicate-rain-inas.buntai.workers.dev/0:/movie/Malay/Guru%20Badul.mp4
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMTgzMzZhYjctYjExZS00MzIzLWJhYzktYmUzOWU1MjNjNzJhXkEyXkFqcGdeQXVyMjgzNDQyMjE@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Maria Mariana - 1996
 https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Maria%20Mariana.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMDkzMWQzYTgtNThkNS00MmEzLWJmZTItY2MwMzBhMzNlNGU0XkEyXkFqcGdeQXVyMjQyMTUzNzY@._V1_.jpg" group-title="Worldwide",Darah Satria - 1983
-https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Darah%20Satria.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BYTU0ZDRiYmItYjUzYy00YTA0LWFhNDAtZjJhZDNiZDJiYmI2XkEyXkFqcGdeQXVyMjgzNDQyMjE@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Sayang Salmah - 1995
-https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Sayang%20Salmah.mp4
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeBDlILGqpUpXhtNdc6m-cUHPjlQhNqvpRIQ&usqp=CAU" group-title="Worldwide",Abu Hasan Penchuri - 1955
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1955%5D%20Abu%20Hasan%20Penchuri%20VCD.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNzliNGYyMDAtZDM1ZC00ODFhLWIzNzAtZmVhYWU3NDFjODNkXkEyXkFqcGdeQXVyMTA3NTk1MQ@@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Ali Baba Bujang Lapok - 1961
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1961%5D%20Ali%20Baba%20Bujang%20Lapok%20SDTV.mp4
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/ms/9/9c/Antara_Dua_Darjat.jpg" group-title="Worldwide",Antara Dua Darjat - 1960
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1960%5D%20Antara%20Dua%20Darjat%20SDTV.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNDk5NzdlYmMtNjUzYi00MjJlLWE4MzUtY2IzZDc2MGE2ZjI5XkEyXkFqcGdeQXVyNjMyMDY4MDM@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Di Belakang Tabir- 1970
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1970%5D%20Di%20Belakang%20Tabir%20SDTV.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNzZlNzAzYmYtOWMxYy00YjJiLWI0NTUtZmI0MzNjNWIwYTliXkEyXkFqcGdeQXVyMjgzNDQyMjE@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Ahmad Albab - 1968
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1968%5D%20Ahmad%20Albab%20SDTV.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BODg2ODRmMmMtMGU1Yi00ZWVjLWI0ZTctZWFmNzJlMzdhNTQ4XkEyXkFqcGdeQXVyMDM3MzU0Ng@@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Anakku Sazali - 1956
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1956%5D%20Anakku%20Sazali%20SDTV.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BZGUxNTQ2MjYtNzExMy00NGU3LTljMzQtYTYyYzhhY2UyMGE5XkEyXkFqcGdeQXVyNDkyMzMyODM@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Sembilu 2 - 1995
+https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Sembilu%20II.mp4
+#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-g6-sSOyuc24Jpyr7l8AOIS5EwuXWsSIfytxYyKrGm0FNuiT8KbrD9XCd3GY0Q7thi5cjpEfL2XnA9v7Xw6Ey7Ttf3pJ1q8_2iNsCJ9VH-httA2ZoAozwcW0ROSxV0K5InAqQv6hU8uw/s320/Cinta+Metropolitan.jpg" group-title="Worldwide",Cinta Metropolitan - 1994
+https://worker-kasyah.buntai.workers.dev/0:/movie/Malay/Cinta%20Metropolitan%20(1996)%20HDRip%201080p.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BOWI5MzY1YmYtM2Y2My00ZWZmLWE5ZGMtZjI2MDA0ZjY4ZGE2XkEyXkFqcGdeQXVyMTMzMDI1NDAw._V1_.jpg" group-title="Worldwide",Da Di Du - 1981
+https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Da%20Di%20Du.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BZGM4MWZiZDAtNmU3NC00NDZmLWI2ZmMtZjY4ZmNkY2QyYjM0XkEyXkFqcGdeQXVyMDM3MzU0Ng@@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Maria Mariana 2 - 1998
+https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Maria%20Mariana%20II.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/eR4MDbv9lnwOXmqXPy4B7uSipUx.jpg" group-title="Worldwide",Prebet Lapok -1979
+https://hello-world-yellow-lake-ae51.buntai.workers.dev/0:/movie/Malay/Prebet%20Lapok.mp4
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNTM2ZmExYmUtZTllMi00NzM2LWIwNmQtMTdjNzIwNjczNGJlXkEyXkFqcGdeQXVyMDM3MzU0Ng@@._V1_.jpg" group-title="Worldwide",Bujang Lapok - 1957
 https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1957%5D%20Bujang%20Lapok%20SDTV.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNzZlNzAzYmYtOWMxYy00YjJiLWI0NTUtZmI0MzNjNWIwYTliXkEyXkFqcGdeQXVyMjgzNDQyMjE@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Ahmad Albab - 1968
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1968%5D%20Ahmad%20Albab%20SDTV.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNzliNGYyMDAtZDM1ZC00ODFhLWIzNzAtZmVhYWU3NDFjODNkXkEyXkFqcGdeQXVyMTA3NTk1MQ@@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Ali Baba Bujang Lapok - 1961
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1961%5D%20Ali%20Baba%20Bujang%20Lapok%20SDTV.mp4
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeBDlILGqpUpXhtNdc6m-cUHPjlQhNqvpRIQ&usqp=CAU" group-title="Worldwide",Abu Hasan Penchuri - 1955
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1955%5D%20Abu%20Hasan%20Penchuri%20VCD.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/anxBz6GDqIwOqRbf9lyontJ4NhO.jpg" group-title="Worldwide",Anjoran Nasib - 1952
 https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1952%5D%20Anjoran%20Nasib%20VCD.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BODg2ODRmMmMtMGU1Yi00ZWVjLWI0ZTctZWFmNzJlMzdhNTQ4XkEyXkFqcGdeQXVyMDM3MzU0Ng@@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Anakku Sazali - 1956
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1956%5D%20Anakku%20Sazali%20SDTV.mp4
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMzRiZTM2NWUtOWJlZi00ZWEyLTlkZDItZGExZGEyZTFmYjY4XkEyXkFqcGdeQXVyMDM3MzU0Ng@@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Dr Rushdi - 1970
 https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1970%5D%20Dr%20Rushdi%20VCD.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BZGMzNjNiNDItNWZiNi00OTVjLThkZGMtYWQ2ZWYxYjk4YTVjXkEyXkFqcGdeQXVyMjgzNDQyMjE@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Do Re Mi - 1966
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1966%5D%20Do%20Re%20Mi%20SDTV.mp4
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjZzWF7NzGV15ZhcU-d0pqlukoukQFVMBVYxpb9dTm5Q&s" group-title="Worldwide",Ibu Mertuaku - 1962
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1969%5D%20Ibu%20Mertuaku%20SDTV.mp4
-#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUGgKtJ_RsSw1sWPATDdCMpP3roPY364K-XLIfRbF7JZfsje1D4K0SestDPEVOkzuVOOYuoRx5Dtjq70rJtnEtptp3IN_kcFChLzN4f48K8ikwU-dt3tsPoTGackrNltw6YssMjNK3JN8w/s1600/Juwita.jpg" group-title="Worldwide",Juwita - 1951
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1951%5D%20Juwita%20SDTV.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNjZhMTM5ODgtY2E4ZC00OGI0LWExN2ItNmUyNDViMzNjYTRmXkEyXkFqcGdeQXVyMTgwOTc1Mjc1._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Ibu - 1953
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1953%5D%20Ibu%20SDTV.mp4
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMWJmM2Q2YjYtMTc5Ni00MWY2LWJiM2QtOTRiNWU2NzA2MDJlXkEyXkFqcGdeQXVyMDM3MzU0Ng@@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Gerimis - 1968
 https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1968%5D%20Gerimis%20VCD.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMzFjNGU2OWEtYmNkYS00M2IzLWJhYjgtN2Y0YzVkY2U2ODU4XkEyXkFqcGdeQXVyMDM3MzU0Ng@@._V1_.jpg" group-title="Worldwide",Kanchan Tirana - 1969
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1968%5D%20Kanchan%20Tirana%20VCD.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMDg3MzQ2ZTMtYzA4ZC00NjBjLWIwY2ItZGRmMmIzNDIwNzI4XkEyXkFqcGdeQXVyMTA3NTk1MQ@@._V1_.jpg" group-title="Worldwide",Hujan Panas - 1953
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1953%5D%20Hujan%20Panas%20SDTV.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BOTE0YWUzYWQtYjU3Ny00YWVkLTlmNTgtNjIzNDZmNmE2N2ZkXkEyXkFqcGdeQXVyMjgzNDQyMjE@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Laksamana Do Re Mi - 1972
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1972%5D%20Laksamana%20Do%20Re%20Mi%20SDTV.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/byq9XA5beRUvI2yN9CHtVTDUk6c.jpg" group-title="Worldwide",Nasib Do Re Mi - 1966
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1966%5D%20Nasib%20Do%20Re%20Mi%20SDTV.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMzc0ZThjZWYtZjNhOS00NDg3LTllYmUtMmNiMDY1OGI4YWNkXkEyXkFqcGdeQXVyMjgzNDQyMjE@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Masam Masam Manis - 1965
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1965%5D%20Masam%20Masam%20Manis%20SDTV.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BZmYwMzNjNjUtMDliMi00NjJiLWJiNzYtN2M1NzE3MDAzZDkzXkEyXkFqcGdeQXVyMjgzNDQyMjE@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Madu Tiga - 1964
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1964%5D%20Madu%20Tiga%20SDTV.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BY2RkZWM4NzctMjJkZS00NWY2LTk4MjYtMmU1NjYwMmFmYjJlXkEyXkFqcGdeQXVyMDM3MzU0Ng@@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Putus Sudah Kasih Sayang - 1971
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1971%5D%20Putus%20Sudah%20Kasih%20Sayang%20SDTV.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/zlF3xSqMJZUgqmJSx44Lo2uLUpv.jpg" group-title="Worldwide",Merana - 1954
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1954%5D%20Merana%20SDTV.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/cqHXC95ahqrSAaNxBD2QbAOj6iQ.jpg" group-title="Worldwide",Musang Berjanggut - 1959
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1959%5D%20Musang%20Berjanggut%20SDTV.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMjQ3ZjRmYmItMGJkYy00NDhmLWI1MDQtYWE3NmI3MWUzOGQ1XkEyXkFqcGdeQXVyMDM3MzU0Ng@@._V1_.jpg" group-title="Worldwide",Ragam P Ramlee - 1964
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1964%5D%20Ragam%20P%20Ramlee%20SDTV.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BZDkwMmJkNmMtNjBkYy00MTNhLTgyZWUtMmU2NDY3NTNlNDU4XkEyXkFqcGdeQXVyMjgzNDQyMjE@._V1_QL75_UY281_CR11,0,190,281_.jpg" group-title="Worldwide",0,190,281_.jpg" group-title="Vod P Ramlee",0,190,281_.jpg",Nasib Si Labu Labi - 1963
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1963%5D%20Nasib%20Si%20Labu%20Labi%20SDTV.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BYzdmZGRjYmEtZmJlNi00ZjI3LTllZWEtNDIwYmZmMWRiMzI0XkEyXkFqcGdeQXVyMTMzMDI1NDAw._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Panggilan Pulau - 1954
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1954%5D%20Panggilan%20Pulau%20VCD.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMDgxMDZhNDctZGViYy00YTgwLTkwMzktYzY5NTk3OTI5MjIwXkEyXkFqcGdeQXVyMjgzNDQyMjE@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Sergeant Hassan - 1958
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1958%5D%20Sarjan%20Hassan%20SDTV.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNGJhMTkwNWYtNWVhNC00NWJlLTg4ZTAtZTI4YjA5ZTE2ODY0XkEyXkFqcGdeQXVyMjgzNDQyMjE@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Labu dan Labi - 1962
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1962%5D%20Labu%20dan%20Labi%20SDTV.mp4
-#EXTINF:-1 tvg-logo="https://www.tvguide.com/a/img/catalog/provider/1/2/1-6585437673.jpg" group-title="Worldwide",Sumpah Orang Minyak - 1956
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1958%5D%20Sumpah%20Orang%20Minyak%20VCD.mp4
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/5a/Hangtuahpramlee.jpg" group-title="Worldwide",Hang Tuah - 1954
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1955%5D%20Hang%20Tuah%20SDTV.mp4
-#EXTINF:-1 tvg-logo="https://thumbs.worthpoint.com/zoom/images4/1/0714/05/1964-majallah-filem-ramlee-tiga-abdul_1_194deded014ba4f2c0f53d16ac74369f.jpg" group-title="Worldwide",Tiga Abdul - 1964
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1964%5D%20Tiga%20Abdul%20SDTV.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/agZ63MetwRS0voliHPrpwWrAObk.jpg" group-title="Worldwide",Rachun Dunia - 1950
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1950%5D%20Rachun%20Dunia%20VCD.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMTUxZDdmNGMtYWQyOC00MjNmLTkxOWItY2JiYjZmMmZlZjMyXkEyXkFqcGdeQXVyMDM3MzU0Ng@@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Semerah Padi - 1956
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1956%5D%20Semerah%20Padi%20VCD.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMTBjNTFlYWQtMjdmYi00ZmU3LWI3ODMtMDJlYTc1ZDhlMjYzXkEyXkFqcGdeQXVyMDM3MzU0Ng@@._V1_.jpg" group-title="Worldwide",Penarek Becha - 1955
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1955%5D%20Penarek%20Becha%20VCD.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNzI3NWRiZGItMGVlYi00YmE2LTk4ZTEtNzNiMzQyOTI4Y2ZjXkEyXkFqcGdeQXVyMDM3MzU0Ng@@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Sabarudin Tukang Kasut - 1966
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1966%5D%20Sabarudin%20Tukang%20Kasut%20SDTV.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNzQ2ZWViYmItNzIwNS00ZmM5LTgwMGUtZWVkM2NkMGVkYTQwXkEyXkFqcGdeQXVyMjgzNDQyMjE@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Enam Jahanam - 1969
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1969%5D%20Enam%20Jahanam%20SDTV.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNTk3Y2UxNTYtM2U4My00MzliLWJlOTYtYTFjMTljZThmZWFhXkEyXkFqcGdeQXVyMTA3NTk1MQ@@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Seniman Bujang Lapok - 1961
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1961%5D%20Seniman%20Bujang%20Lapok%20SDTV.mp4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNDI1NzVhNjQtOTEyYy00NDBiLTkwYzctMzg0NzRiOTM5Y2YxXkEyXkFqcGdeQXVyMjgzNDQyMjE@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Nujum Pak Belalang - 1959
-https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1959%5D%20Nujum%20Pak%20Belalang%20SDTV.mp4
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMmZkMGExMGUtYjZiMC00NWU1LTkwMzUtM2Y0YThjM2RhZTJmXkEyXkFqcGdeQXVyMDM3MzU0Ng@@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Jangan Tinggal Daku - 1971
 https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1971%5D%20Jangan%20Tinggal%20Daku%20SDTV.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMDg3MzQ2ZTMtYzA4ZC00NjBjLWIwY2ItZGRmMmIzNDIwNzI4XkEyXkFqcGdeQXVyMTA3NTk1MQ@@._V1_.jpg" group-title="Worldwide",Hujan Panas - 1953
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1953%5D%20Hujan%20Panas%20SDTV.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BZmYwMzNjNjUtMDliMi00NjJiLWJiNzYtN2M1NzE3MDAzZDkzXkEyXkFqcGdeQXVyMjgzNDQyMjE@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Madu Tiga - 1964
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1964%5D%20Madu%20Tiga%20SDTV.mp4
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/ms/9/9c/Antara_Dua_Darjat.jpg" group-title="Worldwide",Antara Dua Darjat - 1960
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1960%5D%20Antara%20Dua%20Darjat%20SDTV.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNjZhMTM5ODgtY2E4ZC00OGI0LWExN2ItNmUyNDViMzNjYTRmXkEyXkFqcGdeQXVyMTgwOTc1Mjc1._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Ibu - 1953
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1953%5D%20Ibu%20SDTV.mp4
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNDdhOGEzYTktZTZlYi00ZjI5LTk5NTEtNjk3ZWE4ZjYwNzQyXkEyXkFqcGdeQXVyMTA3NTk1MQ@@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Keluarga 69 - 1967
 https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1967%5D%20Keluarga%2069%20VCD.mp4
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/5a/Hangtuahpramlee.jpg" group-title="Worldwide",Hang Tuah - 1954
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1955%5D%20Hang%20Tuah%20SDTV.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMTBjNTFlYWQtMjdmYi00ZmU3LWI3ODMtMDJlYTc1ZDhlMjYzXkEyXkFqcGdeQXVyMDM3MzU0Ng@@._V1_.jpg" group-title="Worldwide",Penarek Becha - 1955
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1955%5D%20Penarek%20Becha%20VCD.mp4
+#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUGgKtJ_RsSw1sWPATDdCMpP3roPY364K-XLIfRbF7JZfsje1D4K0SestDPEVOkzuVOOYuoRx5Dtjq70rJtnEtptp3IN_kcFChLzN4f48K8ikwU-dt3tsPoTGackrNltw6YssMjNK3JN8w/s1600/Juwita.jpg" group-title="Worldwide",Juwita - 1951
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1951%5D%20Juwita%20SDTV.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNDI1NzVhNjQtOTEyYy00NDBiLTkwYzctMzg0NzRiOTM5Y2YxXkEyXkFqcGdeQXVyMjgzNDQyMjE@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Nujum Pak Belalang - 1959
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1959%5D%20Nujum%20Pak%20Belalang%20SDTV.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/agZ63MetwRS0voliHPrpwWrAObk.jpg" group-title="Worldwide",Rachun Dunia - 1950
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1950%5D%20Rachun%20Dunia%20VCD.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BZDkwMmJkNmMtNjBkYy00MTNhLTgyZWUtMmU2NDY3NTNlNDU4XkEyXkFqcGdeQXVyMjgzNDQyMjE@._V1_QL75_UY281_CR11,0,190,281_.jpg" group-title="Worldwide",0,190,281_.jpg" group-title="Vod P Ramlee",0,190,281_.jpg",Nasib Si Labu Labi - 1963
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1963%5D%20Nasib%20Si%20Labu%20Labi%20SDTV.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNDk5NzdlYmMtNjUzYi00MjJlLWE4MzUtY2IzZDc2MGE2ZjI5XkEyXkFqcGdeQXVyNjMyMDY4MDM@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Di Belakang Tabir- 1970
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1970%5D%20Di%20Belakang%20Tabir%20SDTV.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BZGMzNjNiNDItNWZiNi00OTVjLThkZGMtYWQ2ZWYxYjk4YTVjXkEyXkFqcGdeQXVyMjgzNDQyMjE@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Do Re Mi - 1966
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1966%5D%20Do%20Re%20Mi%20SDTV.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMjQ3ZjRmYmItMGJkYy00NDhmLWI1MDQtYWE3NmI3MWUzOGQ1XkEyXkFqcGdeQXVyMDM3MzU0Ng@@._V1_.jpg" group-title="Worldwide",Ragam P Ramlee - 1964
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1964%5D%20Ragam%20P%20Ramlee%20SDTV.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/cqHXC95ahqrSAaNxBD2QbAOj6iQ.jpg" group-title="Worldwide",Musang Berjanggut - 1959
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1959%5D%20Musang%20Berjanggut%20SDTV.mp4
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BYzZjYjZmMzUtOWUzYy00MDkwLThhMWMtMDdiYjJjNzcyNzRhXkEyXkFqcGdeQXVyMTA3NTk1MQ@@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Pendekar Bujang Lapok - 1959
 https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1959%5D%20Pendekar%20Bujang%20Lapok%20SDTV.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BYzdmZGRjYmEtZmJlNi00ZjI3LTllZWEtNDIwYmZmMWRiMzI0XkEyXkFqcGdeQXVyMTMzMDI1NDAw._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Panggilan Pulau - 1954
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1954%5D%20Panggilan%20Pulau%20VCD.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMzc0ZThjZWYtZjNhOS00NDg3LTllYmUtMmNiMDY1OGI4YWNkXkEyXkFqcGdeQXVyMjgzNDQyMjE@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Masam Masam Manis - 1965
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1965%5D%20Masam%20Masam%20Manis%20SDTV.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMTUxZDdmNGMtYWQyOC00MjNmLTkxOWItY2JiYjZmMmZlZjMyXkEyXkFqcGdeQXVyMDM3MzU0Ng@@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Semerah Padi - 1956
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1956%5D%20Semerah%20Padi%20VCD.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNGJhMTkwNWYtNWVhNC00NWJlLTg4ZTAtZTI4YjA5ZTE2ODY0XkEyXkFqcGdeQXVyMjgzNDQyMjE@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Labu dan Labi - 1962
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1962%5D%20Labu%20dan%20Labi%20SDTV.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNzQ2ZWViYmItNzIwNS00ZmM5LTgwMGUtZWVkM2NkMGVkYTQwXkEyXkFqcGdeQXVyMjgzNDQyMjE@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Enam Jahanam - 1969
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1969%5D%20Enam%20Jahanam%20SDTV.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMDgxMDZhNDctZGViYy00YTgwLTkwMzktYzY5NTk3OTI5MjIwXkEyXkFqcGdeQXVyMjgzNDQyMjE@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Sergeant Hassan - 1958
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1958%5D%20Sarjan%20Hassan%20SDTV.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNzI3NWRiZGItMGVlYi00YmE2LTk4ZTEtNzNiMzQyOTI4Y2ZjXkEyXkFqcGdeQXVyMDM3MzU0Ng@@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Sabarudin Tukang Kasut - 1966
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1966%5D%20Sabarudin%20Tukang%20Kasut%20SDTV.mp4
+#EXTINF:-1 tvg-logo="https://www.tvguide.com/a/img/catalog/provider/1/2/1-6585437673.jpg" group-title="Worldwide",Sumpah Orang Minyak - 1956
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1958%5D%20Sumpah%20Orang%20Minyak%20VCD.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BY2RkZWM4NzctMjJkZS00NWY2LTk4MjYtMmU1NjYwMmFmYjJlXkEyXkFqcGdeQXVyMDM3MzU0Ng@@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Putus Sudah Kasih Sayang - 1971
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1971%5D%20Putus%20Sudah%20Kasih%20Sayang%20SDTV.mp4
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjZzWF7NzGV15ZhcU-d0pqlukoukQFVMBVYxpb9dTm5Q&s" group-title="Worldwide",Ibu Mertuaku - 1962
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1969%5D%20Ibu%20Mertuaku%20SDTV.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/byq9XA5beRUvI2yN9CHtVTDUk6c.jpg" group-title="Worldwide",Nasib Do Re Mi - 1966
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1966%5D%20Nasib%20Do%20Re%20Mi%20SDTV.mp4
+#EXTINF:-1 tvg-logo="https://thumbs.worthpoint.com/zoom/images4/1/0714/05/1964-majallah-filem-ramlee-tiga-abdul_1_194deded014ba4f2c0f53d16ac74369f.jpg" group-title="Worldwide",Tiga Abdul - 1964
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1964%5D%20Tiga%20Abdul%20SDTV.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNTk3Y2UxNTYtM2U4My00MzliLWJlOTYtYTFjMTljZThmZWFhXkEyXkFqcGdeQXVyMTA3NTk1MQ@@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Seniman Bujang Lapok - 1961
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1961%5D%20Seniman%20Bujang%20Lapok%20SDTV.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/zlF3xSqMJZUgqmJSx44Lo2uLUpv.jpg" group-title="Worldwide",Merana - 1954
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1954%5D%20Merana%20SDTV.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BOTE0YWUzYWQtYjU3Ny00YWVkLTlmNTgtNjIzNDZmNmE2N2ZkXkEyXkFqcGdeQXVyMjgzNDQyMjE@._V1_FMjpg_UX1000_.jpg" group-title="Worldwide",Laksamana Do Re Mi - 1972
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1972%5D%20Laksamana%20Do%20Re%20Mi%20SDTV.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMzFjNGU2OWEtYmNkYS00M2IzLWJhYjgtN2Y0YzVkY2U2ODU4XkEyXkFqcGdeQXVyMDM3MzU0Ng@@._V1_.jpg" group-title="Worldwide",Kanchan Tirana - 1969
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1968%5D%20Kanchan%20Tirana%20VCD.mp4
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMjQ3ZjRmYmItMGJkYy00NDhmLWI1MDQtYWE3NmI3MWUzOGQ1XkEyXkFqcGdeQXVyMDM3MzU0Ng@@._V1_.jpg" group-title="Worldwide",Ragam P Ramlee - Mintak Nombor Ekor - 1964
+https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1964%5D%20Ragam%20P%20Ramlee%20-%20Mintak%20Nombor%20Ekor%20VCD.mp4
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Unknown",Blokpost
 https://marionetka.com/player/blokpost.mp4
 #EXTINF:-1 tvg-logo="https://buddytv.netlify.app/img/no-logo.png" group-title="Unknown",Siostry
@@ -1707,291 +1709,293 @@ https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%
 https://worker-kasyah.buntai.workers.dev/0:/movie/Sequels/Koleksi%20P%20Ramlee/%5B1964%5D%20Tiga%20Abdul%20SDTV.mp4
 #EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/Thor_Love_and_Thunder-566116133-large.jpg" group-title="Unknown",thor (2011)
 http://tv.proyectox.vip:8080/movie/USA4425010260/LgucHzwXKr/3840.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/2JYSb2qiOSkAdCuIRmXRWBecAAr.jpg" group-title="Unknown",The Best You Can (2025)
-https://pomf2.lain.la/f/wm8e9pj.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/gZQU8BtCH2IbMZq6QETiU4HXQSR.jpg" group-title="Unknown",Marked Men: Rule + Shaw (2025)
-https://pomf2.lain.la/f/1js5wc1o.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/8aTla8ofmtJdfhInKyLTyZifA3k.jpg" group-title="Unknown",Mango (2025)
-https://pomf2.lain.la/f/51lidk55.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/iHBN6wA2cGbTPG1MqRoqmsuFw4a.jpg" group-title="Unknown",A Merry Little Ex-Mas (2025)
-https://pomf2.lain.la/f/ddd9ny2h.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/7ML1ZEpWjR8IKEb2wpK3k4KMvhK.jpg" group-title="Unknown",Las Ratas Una historia de The Witcher
-https://archive.org/download/fisica-cuantica-2/fisica%20cuantica%20%2810%29.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/lGoThJHAA2Wwb1kLGu7mWFGGpGJ.jpg" group-title="Unknown",Amor en Oslo (2024)
-https://pomf2.lain.la/f/6t0kqiq5.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/9iqZ4cES3tuLyHcnURNMwiDaJUb.jpg" group-title="Unknown",Cuidado con lo que deseas (2021)
-https://archive.org/download/cuidado-con-lo-que-deseas_202411/cuidado%20con%20lo%20que%20deseas.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/6VTnUQx6nY3UsZUV0BQX5S6l1Nq.jpg" group-title="Unknown",Cazadores Del Fin Del Mundo (2025)
-https://archive.org/download/fisica-cuantica-2/fisica%20cuantica%20%281%29.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/sGFO6VshDEQ9vX4tOSobLJpkNhq.jpg" group-title="Unknown",(M)Como entrenar a tu dragon (2025)
+https://archive.org/download/03_20250619/03.ia.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/jJ8AiqKKiZWZaiYMyhlF0FNH4xJ.jpg" group-title="Unknown",Frankenstein (2025)
 https://archive.org/download/10_20251106/nano/11.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/47HoQdGvW4Jy4ntUbsQ3bEnJHDh.jpg" group-title="Unknown",Como entrenar a tu dragon (2025)
 https://archive.org/download/01_20250621_20250621_2307/09.mp4
-#EXTINF:-1 tvg-logo="https://i.ibb.co/nPhFNB6/Van.jpg" group-title="Unknown",Van Helsing
-https://dl.dropbox.com/s/78yalld8nmq1383/Van%20Helsing%20%282004%29.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/sGFO6VshDEQ9vX4tOSobLJpkNhq.jpg" group-title="Unknown",(M)Como entrenar a tu dragon (2025)
-https://archive.org/download/03_20250619/03.ia.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/7ML1ZEpWjR8IKEb2wpK3k4KMvhK.jpg" group-title="Unknown",Las Ratas Una historia de The Witcher
+https://archive.org/download/fisica-cuantica-2/fisica%20cuantica%20%2810%29.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/2JYSb2qiOSkAdCuIRmXRWBecAAr.jpg" group-title="Unknown",The Best You Can (2025)
+https://pomf2.lain.la/f/wm8e9pj.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/gZQU8BtCH2IbMZq6QETiU4HXQSR.jpg" group-title="Unknown",Marked Men: Rule + Shaw (2025)
+https://pomf2.lain.la/f/1js5wc1o.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/6VTnUQx6nY3UsZUV0BQX5S6l1Nq.jpg" group-title="Unknown",Cazadores Del Fin Del Mundo (2025)
+https://archive.org/download/fisica-cuantica-2/fisica%20cuantica%20%281%29.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/5QK5lBNxntov4g6fDT1HyBtGK17.jpg" group-title="Unknown",Los Padrinos Magicos, la pelicula: !Momento de crecer, Timmy Turner! (2011)
+https://archive.org/download/los-padrinos-magicos-la-pelicula-momento-de-crecer-timmy-tuner-2011-espanol-latino/8bdd084b17c5f1bad154cb0e3435514849d94a0f698515a737dd297c6c6a78a4.ia.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/lGoThJHAA2Wwb1kLGu7mWFGGpGJ.jpg" group-title="Unknown",Amor en Oslo (2024)
+https://pomf2.lain.la/f/6t0kqiq5.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/9iqZ4cES3tuLyHcnURNMwiDaJUb.jpg" group-title="Unknown",Cuidado con lo que deseas (2021)
+https://archive.org/download/cuidado-con-lo-que-deseas_202411/cuidado%20con%20lo%20que%20deseas.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/8aTla8ofmtJdfhInKyLTyZifA3k.jpg" group-title="Unknown",Mango (2025)
+https://pomf2.lain.la/f/51lidk55.mp4
 #EXTINF:-1 tvg-logo="https://i.ibb.co/7Sdp6dv/ii.jpg" group-title="Unknown",The Old Guard
 https://dl.dropbox.com/s/2dlws4f8y42dq3m/The.Old.Guard.2020.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/iHBN6wA2cGbTPG1MqRoqmsuFw4a.jpg" group-title="Unknown",A Merry Little Ex-Mas (2025)
+https://pomf2.lain.la/f/ddd9ny2h.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/zqhO44oc0pWM32seJeXMcjPLvwV.jpg" group-title="Unknown",Los Caballeros del Zodiaco (2023)
+https://archive.org/download/los-caballeros-del-zodiaco-el-inicio-www.-gdrive-descarga.-com/Los%20Caballeros%20Del%20Zodiaco%20-%20El%20Inicio%20WWW.GDriveDescarga.Com.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/efEC2f2TJ5JfKsMXTQsh2kcKmFL.jpg" group-title="Unknown",Dios Loco (2021)SUB
+https://archive.org/download/mad-god-2021-1080-p-subtitulada-ver-peliculas-online.org/Mad%20God%20%5B2021%5D%20%5B1080P%5D%5BSubtitulada%5D%5BVerPeliculasOnline.org%5D.ia.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/oj2y8UYScRemDQTHmq9Kfwe3EpQ.jpg" group-title="Unknown",El corazon de mi nina (2025)
 https://archive.org/download/naturales-3_202510/naturales%20%283%29.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/8pueo1YEmFhzW4R2C4gtGhobeLz.jpg" group-title="Unknown",Infelices para Siempre (2023)
-https://ia801605.us.archive.org/6/items/conjuring-the-beyond_202304/infelices.ia.mp4
+#EXTINF:-1 tvg-logo="https://i.ibb.co/nPhFNB6/Van.jpg" group-title="Unknown",Van Helsing
+https://dl.dropbox.com/s/78yalld8nmq1383/Van%20Helsing%20%282004%29.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/mtMJEIHjeHcLtvP0tFPAptk1Var.jpg" group-title="Unknown",Rut y Booz (2025)
 https://archive.org/download/sociales-5_202509/sociales%20%286%29.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/s91yhwxBwDPfLUM7qTlJKzxzrV4.jpg" group-title="Unknown",French Lover (2025)
-https://archive.org/download/sociales-5_202509/sociales%20%283%29.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/f474M02m9FocBhR6sr4DAkvoM2c.jpg" group-title="Unknown",Downton Abbey El gran final (2025)
-https://archive.org/download/naturales-3_202510/naturales%20%282%29.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/5a1WZVJP5cvJjcPLRMi4TNphLng.jpg" group-title="Unknown",Yo Antes de Ti (2016)
 https://ia801605.us.archive.org/6/items/conjuring-the-beyond_202304/YO%20ANTES%20DE%20TI.ia.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/pvMHRi09ur2L1drXh2dXFtuMFgl.jpg" group-title="Unknown",Good Boy (2025)
-https://pomf2.lain.la/f/nmfug8lv.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/fRvAAnok5idXu42DNVAuXaNxx6x.jpg" group-title="Unknown",Cuando te encuentres
-https://github.com/BrianRVP/Prueba-plugins-/releases/download/1.2.1/Cuando.te.encuentre.-.Ver.Online.en.Espanol.Latino.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/f474M02m9FocBhR6sr4DAkvoM2c.jpg" group-title="Unknown",Downton Abbey El gran final (2025)
+https://archive.org/download/naturales-3_202510/naturales%20%282%29.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/8pueo1YEmFhzW4R2C4gtGhobeLz.jpg" group-title="Unknown",Infelices para Siempre (2023)
+https://ia801605.us.archive.org/6/items/conjuring-the-beyond_202304/infelices.ia.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/p2t6pV9LlPuwHH2VKwWfHwxvPZc.jpg" group-title="Unknown",Contigo, todo (2025)
 https://archive.org/download/sociales-5_202509/sociales%20%281%29.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/jBpqADo9XAKaecvI3f0J4hRAEyO.jpg" group-title="Unknown",365 Dias(2020)
-https://github.com/BrianRVP/Meteorito_Juego/releases/download/2.12.1/Ver.365.dias.2020.online.HD.-.Cuevana.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/cQdfSHkmPnSS3AncCz13H0fCUoq.jpg" group-title="Unknown",El asesino con ojos de corazon (2025)
-https://pomf2.lain.la/f/oiwn4hh8.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/s91yhwxBwDPfLUM7qTlJKzxzrV4.jpg" group-title="Unknown",French Lover (2025)
+https://archive.org/download/sociales-5_202509/sociales%20%283%29.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/pvMHRi09ur2L1drXh2dXFtuMFgl.jpg" group-title="Unknown",Good Boy (2025)
+https://pomf2.lain.la/f/nmfug8lv.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/hvdqoH6DMZjes6MXImW8J49l01Q.jpg" group-title="Unknown",Y tu mama tambien (2001)
+https://archive.org/download/y-tu-mama-tambien-2001/Y%20tu%20mam%C3%A1%20tambi%C3%A9n%20%282001%29.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/nyGKQrctWNmhSvto8h60AhZ3iLz.jpg" group-title="Unknown",Succubus (2024)
 https://pomf2.lain.la/f/dif4fg5m.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/kE6FV8Lc9Aqir6OlgaNgnbFcy9E.jpg" group-title="Unknown",The Other (2025)
+https://pomf2.lain.la/f/ju3rt2w4.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/kEEnA9csdlMOIVeKttV24u639Qg.jpg" group-title="Unknown",Rapaces (2025)
 https://pomf2.lain.la/f/ilnvuju.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/565kBAr0hvgLbJKyAd3dUKk2xn0.jpg" group-title="Unknown",Laberinto de sombras (2024)
 https://pomf2.lain.la/f/8qhki10m.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/cQdfSHkmPnSS3AncCz13H0fCUoq.jpg" group-title="Unknown",El asesino con ojos de corazon (2025)
+https://pomf2.lain.la/f/oiwn4hh8.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/jBpqADo9XAKaecvI3f0J4hRAEyO.jpg" group-title="Unknown",365 Dias(2020)
+https://github.com/BrianRVP/Meteorito_Juego/releases/download/2.12.1/Ver.365.dias.2020.online.HD.-.Cuevana.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/fRvAAnok5idXu42DNVAuXaNxx6x.jpg" group-title="Unknown",Cuando te encuentres
+https://github.com/BrianRVP/Prueba-plugins-/releases/download/1.2.1/Cuando.te.encuentre.-.Ver.Online.en.Espanol.Latino.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/2EH42blLQzgqwDWxn39RXkTgb91.jpg" group-title="Unknown",Romper el circulo
 https://github.com/BrianRVP/Prueba-plugins-/releases/download/214.85.4/Ver.Romper.el.circulo.2024.online.HD.-.Cuevana.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/zqhO44oc0pWM32seJeXMcjPLvwV.jpg" group-title="Unknown",Los Caballeros del Zodiaco (2023)
-https://archive.org/download/los-caballeros-del-zodiaco-el-inicio-www.-gdrive-descarga.-com/Los%20Caballeros%20Del%20Zodiaco%20-%20El%20Inicio%20WWW.GDriveDescarga.Com.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/5QK5lBNxntov4g6fDT1HyBtGK17.jpg" group-title="Unknown",Los Padrinos Magicos, la pelicula: !Momento de crecer, Timmy Turner! (2011)
-https://archive.org/download/los-padrinos-magicos-la-pelicula-momento-de-crecer-timmy-tuner-2011-espanol-latino/8bdd084b17c5f1bad154cb0e3435514849d94a0f698515a737dd297c6c6a78a4.ia.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/efEC2f2TJ5JfKsMXTQsh2kcKmFL.jpg" group-title="Unknown",Dios Loco (2021)SUB
-https://archive.org/download/mad-god-2021-1080-p-subtitulada-ver-peliculas-online.org/Mad%20God%20%5B2021%5D%20%5B1080P%5D%5BSubtitulada%5D%5BVerPeliculasOnline.org%5D.ia.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/5GCcVChxiozkfbl0lLQ8z5oHdl.jpg" group-title="Unknown",The Curse of the Clown Motel (2023)
-https://pomf2.lain.la/f/ka6csdbj.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w200/1L0a6UUl962rRxVQQfwpqfS92qz.jpg" group-title="Unknown",The Monkey (2025)
-https://1a-1791.com/video/fwe1/5b/s8/2/8/G/7/c/8G7cy.caa.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/naZMlKUYOoROozrqWa9dpoMdJL2.jpg" group-title="Unknown",Pared con pared (2024)
-https://archive.org/download/ver-pared-con-pared-2024-online-re-pelis-24-gratis/Ver%20Pared%20con%20pared%20%282024%29%20Online%20%E2%9C%85%20RePelis24%20%C2%BB%20Gratis.mp4
-#EXTINF:-1 tvg-logo="https://archive.org/download/10010010/Cover%20-%20Love%20%26%20Other%20Drugs.jpg" group-title="Unknown",amor y otras drogas (2010)
-https://archive.org/download/10010010/4mor%20y%20Otr4s%20Droga5.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w200/rdGpSGWNnpHuouEJjXOkzbTyRJk.jpg" group-title="Unknown",No hables con extranos (2024)
-https://1a-1791.com/video/fwe1/ea/s8/2/B/v/y/Z/BvyZw.aaa.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w200/63xYQj1BwRFielxsBDXvHIJyXVm.jpg" group-title="Unknown",Terrifier 3 (2024) SUB
-https://1a-1791.com/video/s8/2/A/G/I/j/AGIju.aaa.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w200/e4686PPqj8AOdTUnGZpjApT1cDi.jpg" group-title="Unknown",Longlegs Coleccionista de almas (2024)
-https://1a-1791.com/video/fwe1/43/s8/2/i/U/0/Y/iU0Yw.aaa.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w200/6AWBa4JFtaC4eEs48qjCCJd9BMr.jpg" group-title="Unknown",Sonrie 2 (2024) WebDL
-https://1a-1791.com/video/s8/2/j/W/R/D/jWRDu.aaa.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w200/fqRBqG8uaFbTD5aXuqDSKt2NDFu.jpg" group-title="Unknown",El Mal con el que vivo (2024)
-https://1a-1791.com/video/fwe1/6c/s8/2/2/J/1/1/2J11w.aaa.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w200/fK17l0DSAxNG8xdeECVTLOSedm9.jpg" group-title="Unknown",Y2K (2024) SUBT
-https://1a-1791.com/video/fwe1/5d/s8/2/w/a/i/4/wai4v.aaa.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w200/rpo3DJFMOSAz27gDwxJ5LIwIFni.jpg" group-title="Unknown",Hereje (2024)
-https://1a-1791.com/video/fwe2/6b/s8/2/_/x/9/Q/_x9Qw.aaa.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w200/8K69J04Zvqnt89E28AhF56qLilk.jpg" group-title="Unknown",The funeral (2024)
-https://ia600109.us.archive.org/25/items/the-funeral-2024/The%20funeral%20%282024%29.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w200/6CdgzmiyjU1aPV6zjfWR8cMCN79.jpg" group-title="Unknown",No te sueltes (2024)
-https://hugh.cdn.rumble.cloud/video/s8/2/t/S/c/3/tSc3t.aaa.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/85rlLCjpHbY0puR1FSL7jYyN1cu.jpg" group-title="Unknown",They Were Witches (2025)
-https://pomf2.lain.la/f/g2vfal4p.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/6Qc0wDC0NDqi8Bzyh7i2sWViR6V.jpg" group-title="Unknown",Baramulla (2025)
-https://pomf2.lain.la/f/c5omdmvo.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/wMckWiOI0YIiww5ho31eB1a7qd4.jpg" group-title="Unknown",No Lo Escuches (2025)
-https://archive.org/download/no-lo-escuches-720/No%20Lo%20Escuches%20720.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/hvdqoH6DMZjes6MXImW8J49l01Q.jpg" group-title="Unknown",Y tu mama tambien (2001)
-https://archive.org/download/y-tu-mama-tambien-2001/Y%20tu%20mam%C3%A1%20tambi%C3%A9n%20%282001%29.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/iKT49ApsXGKYY3wdZ0THYhhgOBe.jpg" group-title="Unknown",My Oxford Year (2025)
 https://archive.org/download/mi-ano-en-oxford-online-castellano/Mi%20a%C3%B1o%20en%20Oxford%20Online%20Castellano.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w200/lH2UI7qwvKtmHk9vFTxxnCQPLKa.jpg" group-title="Unknown",La maldicion del colgante (2024)
-https://dl.dropbox.com/s/nyn063jh2hjsmfj/La%20maldici%C3%B3n%20del%20colgante%20%282025%29.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/wMckWiOI0YIiww5ho31eB1a7qd4.jpg" group-title="Unknown",No Lo Escuches (2025)
+https://archive.org/download/no-lo-escuches-720/No%20Lo%20Escuches%20720.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w200/8K69J04Zvqnt89E28AhF56qLilk.jpg" group-title="Unknown",The funeral (2024)
+https://ia600109.us.archive.org/25/items/the-funeral-2024/The%20funeral%20%282024%29.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/download/10010010/Cover%20-%20Love%20%26%20Other%20Drugs.jpg" group-title="Unknown",amor y otras drogas (2010)
+https://archive.org/download/10010010/4mor%20y%20Otr4s%20Droga5.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w200/e4686PPqj8AOdTUnGZpjApT1cDi.jpg" group-title="Unknown",Longlegs Coleccionista de almas (2024)
+https://1a-1791.com/video/fwe1/43/s8/2/i/U/0/Y/iU0Yw.aaa.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/5GCcVChxiozkfbl0lLQ8z5oHdl.jpg" group-title="Unknown",The Curse of the Clown Motel (2023)
+https://pomf2.lain.la/f/ka6csdbj.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w200/63xYQj1BwRFielxsBDXvHIJyXVm.jpg" group-title="Unknown",Terrifier 3 (2024) SUB
+https://1a-1791.com/video/s8/2/A/G/I/j/AGIju.aaa.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w200/fK17l0DSAxNG8xdeECVTLOSedm9.jpg" group-title="Unknown",Y2K (2024) SUBT
+https://1a-1791.com/video/fwe1/5d/s8/2/w/a/i/4/wai4v.aaa.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/naZMlKUYOoROozrqWa9dpoMdJL2.jpg" group-title="Unknown",Pared con pared (2024)
+https://archive.org/download/ver-pared-con-pared-2024-online-re-pelis-24-gratis/Ver%20Pared%20con%20pared%20%282024%29%20Online%20%E2%9C%85%20RePelis24%20%C2%BB%20Gratis.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w200/6CdgzmiyjU1aPV6zjfWR8cMCN79.jpg" group-title="Unknown",No te sueltes (2024)
+https://hugh.cdn.rumble.cloud/video/s8/2/t/S/c/3/tSc3t.aaa.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w200/6AWBa4JFtaC4eEs48qjCCJd9BMr.jpg" group-title="Unknown",Sonrie 2 (2024) WebDL
+https://1a-1791.com/video/s8/2/j/W/R/D/jWRDu.aaa.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w200/rdGpSGWNnpHuouEJjXOkzbTyRJk.jpg" group-title="Unknown",No hables con extranos (2024)
+https://1a-1791.com/video/fwe1/ea/s8/2/B/v/y/Z/BvyZw.aaa.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w200/rpo3DJFMOSAz27gDwxJ5LIwIFni.jpg" group-title="Unknown",Hereje (2024)
+https://1a-1791.com/video/fwe2/6b/s8/2/_/x/9/Q/_x9Qw.aaa.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w200/fqRBqG8uaFbTD5aXuqDSKt2NDFu.jpg" group-title="Unknown",El Mal con el que vivo (2024)
+https://1a-1791.com/video/fwe1/6c/s8/2/2/J/1/1/2J11w.aaa.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w200/1L0a6UUl962rRxVQQfwpqfS92qz.jpg" group-title="Unknown",The Monkey (2025)
+https://1a-1791.com/video/fwe1/5b/s8/2/8/G/7/c/8G7cy.caa.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/6Qc0wDC0NDqi8Bzyh7i2sWViR6V.jpg" group-title="Unknown",Baramulla (2025)
+https://pomf2.lain.la/f/c5omdmvo.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/dYxrsyUEdFOOq7xzIuvEb1858Sg.jpg" group-title="Unknown",Vicious (2025)
 https://archive.org/download/05_20251029/MANJARO/04.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/85rlLCjpHbY0puR1FSL7jYyN1cu.jpg" group-title="Unknown",They Were Witches (2025)
+https://pomf2.lain.la/f/g2vfal4p.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/rJwBLXG4MXi3uPxb9pu0d0Dtlnt.jpg" group-title="Unknown",Fantasmagoria
+https://archive.org/download/fisica-cuantica-2/fisica%20cuantica%20%283%29.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w200/cpbukMqjn96Vdw8bt4MPRF8h41T.jpg" group-title="Unknown",Cosecha oscura (2023)
+https://archive.org/download/cosecha-oscura/atardecer/Cosecha%20Oscura.mkv
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/crX9rSg9EohybhkEe8iTQUCe55y.jpg" group-title="Unknown",The Ugly Stepsister (2025)
 https://archive.org/download/05_20251029/MANJARO/01.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/rSOYVDmg4VFoVuZzu4941X2s1fO.jpg" group-title="Unknown",825 Forest Road (2025)
 https://archive.org/download/11_20251104/Gedit/05.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/rJwBLXG4MXi3uPxb9pu0d0Dtlnt.jpg" group-title="Unknown",Fantasmagoria
-https://archive.org/download/fisica-cuantica-2/fisica%20cuantica%20%283%29.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/dYJXYXPif0tlF1QrhX7OpbvMylk.jpg" group-title="Unknown",Un cuento oscuro (2025)
-https://archive.org/download/naturales-3_202510/naturales%20%287%29.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/beLZhuHT97849WkWgty2X1hkWUa.jpg" group-title="Unknown",Rosario Herencia Maldita (2025)
-https://archive.org/download/naturales-3_202510/naturales%20%286%29.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w200/cpbukMqjn96Vdw8bt4MPRF8h41T.jpg" group-title="Unknown",Cosecha oscura (2023)
-https://archive.org/download/cosecha-oscura/atardecer/Cosecha%20Oscura.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w200/lH2UI7qwvKtmHk9vFTxxnCQPLKa.jpg" group-title="Unknown",La maldicion del colgante (2024)
+https://dl.dropbox.com/s/nyn063jh2hjsmfj/La%20maldici%C3%B3n%20del%20colgante%20%282025%29.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/hPK7H70vQVpT3qn9zedKqizXVdx.jpg" group-title="Unknown",Esquina afilada (2025)
 https://archive.org/download/ver-los-desenredos-del-amor-2025-online-gratis-espanol-pelisplus/La%20casa%20al%20final%20de%20la%20curva%20-%20Ver%20Online%20en%20Espa%C3%B1ol%20Latino.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/inliWt3ukcpKDGPpEe2lRDLwK2r.jpg" group-title="Unknown",Together (2025) HD
-https://archive.org/download/ver-los-desenredos-del-amor-2025-online-gratis-espanol-pelisplus/Together%20Juntos%20hasta%20la%20muerte%20-%20Ver%20Online%20en%20Espa%C3%B1ol%20Latino.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/beLZhuHT97849WkWgty2X1hkWUa.jpg" group-title="Unknown",Rosario Herencia Maldita (2025)
+https://archive.org/download/naturales-3_202510/naturales%20%286%29.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/dYJXYXPif0tlF1QrhX7OpbvMylk.jpg" group-title="Unknown",Un cuento oscuro (2025)
+https://archive.org/download/naturales-3_202510/naturales%20%287%29.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/8gT2cR9ETkSZbNSmQQeCUW6sYCg.jpg" group-title="Unknown",Exorcismo El Ritual (2025)
+https://archive.org/download/sociales-5_202509/sociales%20%282%29.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/cwjNSLj5FCkwFsTx7g57ybWQDcp.jpg" group-title="Unknown",La hora de la desaparicion (2025)
 https://archive.org/download/ver-el-cuento-del-lobo-2025-online-hd-cuevana/Ver%20La%20hora%20de%20la%20desaparici%C3%B3n%20%282025%29%20Online%20Gratis%20Espa%C3%B1ol%20-%20Pelisplus.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/10ir0eISr3p1MF1mjZwGTx7u4vv.jpg" group-title="Unknown",El conjuro (2013)
-https://archive.org/download/e-2_20250817/E%20%281%29.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/inliWt3ukcpKDGPpEe2lRDLwK2r.jpg" group-title="Unknown",Together (2025) HD
+https://archive.org/download/ver-los-desenredos-del-amor-2025-online-gratis-espanol-pelisplus/Together%20Juntos%20hasta%20la%20muerte%20-%20Ver%20Online%20en%20Espa%C3%B1ol%20Latino.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/k8HN29t4VxiOagq9jaVVwZJ6wIB.jpg" group-title="Unknown",El conjuro: El diablo me obligo a hacerlo (2021)
 https://archive.org/download/e-2_20250817/E%20%283%29.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/10ir0eISr3p1MF1mjZwGTx7u4vv.jpg" group-title="Unknown",El conjuro (2013)
+https://archive.org/download/e-2_20250817/E%20%281%29.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/eYWH6pGsX102DUIjWpeybkDZfqA.jpg" group-title="Unknown",El conjuro 2 (2016)
 https://archive.org/download/e-2_20250817/E%20%282%29.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/bEOvj0cEDHTXiyYlCSJ76BpzPuB.jpg" group-title="Unknown",Doble Traicion (2025)
 https://archive.org/download/doble-traici-n-2025-latino/doble-traici-n-2025-%5Blatino%5D.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/k0PqbsIRcmmm5wzO2mLQLa2SEjL.jpg" group-title="Unknown",La venganza del Papeye (2025)
-https://archive.org/download/la-venganza-de-popeye-2025-latino/la-venganza-de-popeye-2025-%5Blatino%5D.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/3mXM43f6SXAaVjTDH4IDdxzFa2n.jpg" group-title="Unknown",Los condenados (2025)
 https://archive.org/download/los-condenados-2025-latino/los-condenados-2025-%5Blatino%5D.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/yfEJL8bRjyNlqxiYHu1cY7tJN9t.jpg" group-title="Unknown",Miedo En Las Profundidades (2025)
-https://archive.org/download/miedo-en-las-profundidades-castellano/Miedo%20en%20las%20profundidades%20Castellano.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/3rlU3gwaKobcdrmIBTRfyGcE6ew.jpg" group-title="Unknown",Bird Box Barcelona
-https://github.com/BrianRVP/Prueba-plugins-/releases/download/201.12.12/Bird.Box.Barcelona.-.Ver.Online.en.Espanol.Latino.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/7BkDJ4DfjkEG6NRJPeyw9w2iRFx.jpg" group-title="Unknown",rosario (2025)
-https://archive.org/download/04_20250615_202506/atn/06.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/k0PqbsIRcmmm5wzO2mLQLa2SEjL.jpg" group-title="Unknown",La venganza del Papeye (2025)
+https://archive.org/download/la-venganza-de-popeye-2025-latino/la-venganza-de-popeye-2025-%5Blatino%5D.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/hZ8dTeBzigV5SVgwG1ikSROAFiS.jpg" group-title="Unknown",Presencia (2025)
 https://archive.org/download/presencia-2025-1/Presencia%202025%20%281%29.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/yfEJL8bRjyNlqxiYHu1cY7tJN9t.jpg" group-title="Unknown",Miedo En Las Profundidades (2025)
+https://archive.org/download/miedo-en-las-profundidades-castellano/Miedo%20en%20las%20profundidades%20Castellano.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/jyEcMBORFuwyetoVjlqMZqEV0fM.jpg" group-title="Unknown",conjuro siniestro (2025)
 https://archive.org/download/05_20250626_202506/linux/12.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/8gT2cR9ETkSZbNSmQQeCUW6sYCg.jpg" group-title="Unknown",Exorcismo El Ritual (2025)
-https://archive.org/download/sociales-5_202509/sociales%20%282%29.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/5THjBLt4vE9lAnLODqXFf5qEwxa.jpg" group-title="Unknown",Play Dead (2025)
 https://archive.org/download/asterix_202506/pbx/01.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/4dKRTUylqwXQ4VJz0BS84fqW2wa.jpg" group-title="Unknown",Five Nights at Freddy's (2023)
+https://archive.org/download/five-nights-at-freddys-2023-1080p-dual-2.86-gb/Five%20Nights%20At%20Freddys%20%282023%29%201080p%20DUAL%202.86%20GB.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/7BkDJ4DfjkEG6NRJPeyw9w2iRFx.jpg" group-title="Unknown",rosario (2025)
+https://archive.org/download/04_20250615_202506/atn/06.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/7EqXQpRpDLJA09ufah6Vsr487WW.jpg" group-title="Unknown",La mujer de las sombras (2025)
 https://archive.org/download/01_20250624_20250624_1917/pascal/09.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/fAXDQny8kEquc1BImiQHhYMGSsW.jpg" group-title="Unknown",The Damned (2025)
 https://archive.org/download/bflixelys-1um/BFLIXThe1Damned8.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/eMrXZnGTPy52zgplp7PbZWll8W7.jpg" group-title="Unknown",(HD)Destino final: Lazos de sangre
 https://archive.org/download/01_20250621_20250621_2307/10.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/zjZOZ0Oe7HLT8su1OvCkjaWkjHg.jpg" group-title="Unknown",Hereje (2024)CAM SUB
-https://github.com/tokio14-dot/te-rror/releases/download/A.5.76/S.4.56.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/1smw9aHuPiHga2Of5TOJs0Ps1rZ.jpg" group-title="Unknown",The Purge: La noche de las bestias (2013)
-https://archive.org/download/The.Purge.1080p.latino/The.Purge.1080p.latino.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/sOZc3U9acAqlItsI7amSGKUdd7k.jpg" group-title="Unknown",La cosa (The Thing) (2011)
-https://github.com/tokio14-dot/pi-pelis/releases/download/P.4.42/L.1.85.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/a2N5St0TCmyJy2F8IwPlo2lEbiJ.jpg" group-title="Unknown",La piramide (2014)
-https://github.com/tokio14-dot/pi-pelis/releases/download/P.4.42/P.4.42.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/6GcWY38P2VisUbS7nK9Z1xOWU.jpg" group-title="Unknown",El Boliche del Terror (2024)
-https://github.com/tokio14-dot/youtubem/releases/download/W.24577/Q.22222222.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/2z1PVqfzvT4KjPNpQRfy5HpsyIW.jpg" group-title="Unknown",El exorcista del papa (2023)
-https://archive.org/download/Exorcistadelpapa/The.Popes.Exorcist.2023.1080p.Latino.Mega1080p.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/oRtmSBegijsysFcA5Kwn2WmMdL4.jpg" group-title="Unknown",Ahi afuera (2024)
-https://github.com/tokio14-dot/tete/releases/download/D.563/023577.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/4dKRTUylqwXQ4VJz0BS84fqW2wa.jpg" group-title="Unknown",Five Nights at Freddy's (2023)
-https://archive.org/download/five-nights-at-freddys-2023-1080p-dual-2.86-gb/Five%20Nights%20At%20Freddys%20%282023%29%201080p%20DUAL%202.86%20GB.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/aE85MnPIsSoSs3978Noo16BRsKN.jpg" group-title="Unknown",Smile 2 (2024)
-https://github.com/tokio14-dot/Q-6429/releases/download/w9155/33333333.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/l1175hgL5DoXnqeZQCcU3eZIdhX.jpg" group-title="Unknown",Terrifier 3 (2024)
-https://github.com/tokio14-dot/Q-6429/releases/download/w9155/22222222.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/bMcqaWJv7dBzb8lDQLqawGH09PC.jpg" group-title="Unknown",Frewaka (2025)
 https://archive.org/download/frewaka-online-castellano/Fr%C3%A9waka%20Online%20Castellano.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/rBSKGZuOZqkjrjyDlX2cx4lTaRW.jpg" group-title="Unknown",Hombre lobo (2025)
-https://archive.org/download/d3vu37t4.4.747cc10n/BFLIXW4rhors31On3.ia.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/3rlU3gwaKobcdrmIBTRfyGcE6ew.jpg" group-title="Unknown",Bird Box Barcelona
+https://github.com/BrianRVP/Prueba-plugins-/releases/download/201.12.12/Bird.Box.Barcelona.-.Ver.Online.en.Espanol.Latino.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/1smw9aHuPiHga2Of5TOJs0Ps1rZ.jpg" group-title="Unknown",The Purge: La noche de las bestias (2013)
+https://archive.org/download/The.Purge.1080p.latino/The.Purge.1080p.latino.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/AU1xAbnkR4dj8WUC82by0gW4BE.jpg" group-title="Unknown",Infeccion (2019)
 https://archive.org/download/infeccion-2019/Infecci%C3%B3n%20%282019%29.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/jivUhECegXI3OYtPVflWoIDtENt.jpg" group-title="Unknown",Nosferatu (2024)
-https://archive.org/download/d3vu37t4.4.747cc10n/BFLIX4Nosf3ratu1.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/pi2pkIUeVk0z3iy67YKTxDjeAGr.jpg" group-title="Unknown",No entres (2024)
-https://archive.org/download/do-not-enter-2024/DO%20NOT%20ENTER%20%282024%29.ia.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/5HJqjCTcaE1TFwnNh3Dn21be2es.jpg" group-title="Unknown",Heretic (2024)
-https://archive.org/download/h3R_3j3/h3R_3j3.ia.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/4dKRTUylqwXQ4VJz0BS84fqW2wa.jpg" group-title="Unknown",Five Nights at Freddy's (2023)
-https://archive.org/download/fnaf-la-pelicula-2023-espanol-latino/FNAF%20La%20Pelicula%202023%20Espa%C3%B1ol%20Latino.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/l1175hgL5DoXnqeZQCcU3eZIdhX.jpg" group-title="Unknown",Terrifier 3 (2024)
+https://github.com/tokio14-dot/Q-6429/releases/download/w9155/22222222.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/oRtmSBegijsysFcA5Kwn2WmMdL4.jpg" group-title="Unknown",Ahi afuera (2024)
+https://github.com/tokio14-dot/tete/releases/download/D.563/023577.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/eMrXZnGTPy52zgplp7PbZWll8W7.jpg" group-title="Unknown",Destino final: Lazos de sangre
 https://archive.org/download/fnaf-es/FNAF%20ES.ia.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/3xOYf938hlGXR7Epta7jH2CjCba.jpg" group-title="Unknown",The Shed (2019)
-https://archive.org/download/the-shed-2019/THE%20SHED%20%20%282019%29.ia.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/tFcol3qTcL5ImNRbcGLSsLPTTv1.jpg" group-title="Unknown",CHUCKY EL MUNECO DIABOLICO II (TERROR)
-https://archive.org/download/08052017Ch2320170508/08052017_ch23.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/mEgWL3PlfEA6IFXNLoi6x9IWLZx.jpg" group-title="Unknown",Las tias (2024)
-https://archive.org/download/las-tias-ver-online-en-espanol-latino/Las%20t%C3%ADas%20-%20Ver%20Online%20en%20Espa%C3%B1ol%20Latino.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/mRTnim0xPxYiH0LWi2O59Lqk2Gd.jpg" group-title="Unknown",CHUCKY EL MUNECO DIABOLICO
-https://archive.org/download/080520712070508aCh/08052071.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/rFLppobsrLyry8R3S6dT0C0XGMr.jpg" group-title="Unknown",corre (2020)
-https://archive.org/download/run-latino/Run%20Latino.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/zjZOZ0Oe7HLT8su1OvCkjaWkjHg.jpg" group-title="Unknown",Hereje (2024)CAM SUB
+https://github.com/tokio14-dot/te-rror/releases/download/A.5.76/S.4.56.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/4dKRTUylqwXQ4VJz0BS84fqW2wa.jpg" group-title="Unknown",Five Nights at Freddy's (2023)
+https://archive.org/download/fnaf-la-pelicula-2023-espanol-latino/FNAF%20La%20Pelicula%202023%20Espa%C3%B1ol%20Latino.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/6FKym4sm5LcqUC80HNpn2ejVoro.jpg" group-title="Unknown",Donnie Darko (2001)
 https://archive.org/download/donnie-darko-2001-full-movie-the-directors-cut/Donnie%20Darko%282001%29_Full%20Movie%20-%20The%20Director%27s%20Cut.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/sOZc3U9acAqlItsI7amSGKUdd7k.jpg" group-title="Unknown",La cosa (The Thing) (2011)
+https://github.com/tokio14-dot/pi-pelis/releases/download/P.4.42/L.1.85.mp4
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/5qqzdbfdp7LBL56WRW0RmSoEm12.jpg" group-title="Unknown",No te muevas (2024)
 https://archive.org/download/don-t-move-2024/DON%27T%20MOVE%20%20%282024%29.ia.mp4
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/5SPa7dZ85p54xa7E9tHRmfKq5ce.jpg" group-title="Unknown",Capitana marvel
-https://dl.dropbox.com/s/qnnirswyiybs14k/CapMarvel.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/v0Q2uYARIqui1sEBF0bCLJaliDI.jpg" group-title="Unknown",OP2
-https://hugh.cdn.rumble.cloud/video/s8/2/B/J/O/4/BJO4s.caa.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/a2N5St0TCmyJy2F8IwPlo2lEbiJ.jpg" group-title="Unknown",La piramide (2014)
+https://github.com/tokio14-dot/pi-pelis/releases/download/P.4.42/P.4.42.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/3xOYf938hlGXR7Epta7jH2CjCba.jpg" group-title="Unknown",The Shed (2019)
+https://archive.org/download/the-shed-2019/THE%20SHED%20%20%282019%29.ia.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/6GcWY38P2VisUbS7nK9Z1xOWU.jpg" group-title="Unknown",El Boliche del Terror (2024)
+https://github.com/tokio14-dot/youtubem/releases/download/W.24577/Q.22222222.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/aE85MnPIsSoSs3978Noo16BRsKN.jpg" group-title="Unknown",Smile 2 (2024)
+https://github.com/tokio14-dot/Q-6429/releases/download/w9155/33333333.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/5HJqjCTcaE1TFwnNh3Dn21be2es.jpg" group-title="Unknown",Heretic (2024)
+https://archive.org/download/h3R_3j3/h3R_3j3.ia.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/rFLppobsrLyry8R3S6dT0C0XGMr.jpg" group-title="Unknown",corre (2020)
+https://archive.org/download/run-latino/Run%20Latino.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/mEgWL3PlfEA6IFXNLoi6x9IWLZx.jpg" group-title="Unknown",Las tias (2024)
+https://archive.org/download/las-tias-ver-online-en-espanol-latino/Las%20t%C3%ADas%20-%20Ver%20Online%20en%20Espa%C3%B1ol%20Latino.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/tFcol3qTcL5ImNRbcGLSsLPTTv1.jpg" group-title="Unknown",CHUCKY EL MUNECO DIABOLICO II (TERROR)
+https://archive.org/download/08052017Ch2320170508/08052017_ch23.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/rBSKGZuOZqkjrjyDlX2cx4lTaRW.jpg" group-title="Unknown",Hombre lobo (2025)
+https://archive.org/download/d3vu37t4.4.747cc10n/BFLIXW4rhors31On3.ia.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/jivUhECegXI3OYtPVflWoIDtENt.jpg" group-title="Unknown",Nosferatu (2024)
+https://archive.org/download/d3vu37t4.4.747cc10n/BFLIX4Nosf3ratu1.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/mRTnim0xPxYiH0LWi2O59Lqk2Gd.jpg" group-title="Unknown",CHUCKY EL MUNECO DIABOLICO
+https://archive.org/download/080520712070508aCh/08052071.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/2z1PVqfzvT4KjPNpQRfy5HpsyIW.jpg" group-title="Unknown",El exorcista del papa (2023)
+https://archive.org/download/Exorcistadelpapa/The.Popes.Exorcist.2023.1080p.Latino.Mega1080p.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/pi2pkIUeVk0z3iy67YKTxDjeAGr.jpg" group-title="Unknown",No entres (2024)
+https://archive.org/download/do-not-enter-2024/DO%20NOT%20ENTER%20%282024%29.ia.mp4
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/gPAmH41VpK5UPaNhAiNJePzrL8z.jpg" group-title="Unknown",Thor un mundo oscuro
 https://archive.org/download/cuartormuna/20.mp4
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/3Zv12uAqBxj4xAdeHeVySEQzY1o.jpg" group-title="Unknown",Capitan america: El soldado del invierno
-https://archive.org/download/21416_202009/21416.mp4
-#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/enemy_mine-922915975-mmed.jpg" group-title="Unknown",Enemigo mio
-https://ia800303.us.archive.org/28/items/enemigo-mio-espan-ol-latino-360-p/ENEMIGO%20MIO%20ESPA%C3%91OL%20LATINO%28360P%29.mp4
-#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/the_flight_of_dragons-825167208-mmed.jpg" group-title="Unknown",El vuelo de los dragones
-https://ia600203.us.archive.org/6/items/facebook-407722370559405-480p/Facebook%20407722370559405%28480p%29.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w154/3xFxGodKPMFLheS8rujFSmLfcq4.jpg" group-title="Unknown",Un puente hacia Terabithia
-https://ia800205.us.archive.org/5/items/el-mundo-magico-de-terabithiapelicula-completa-en-espanol-latino-480-p/El%20mundo%20m%C3%A1gico%20de%20Terabithia%28pel%C3%ADcula%20completa%20en%20espa%C3%B1ol%20latino%29%28480P%29.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/1jvCVdlgInyItAUEvvvCakm1Yxz.jpg" group-title="Unknown",Culpa tuya
-https://github.com/BrianRVP/Ejemplo/releases/download/2.918/Culpa.tuya.Peliculas.Gratis.HD.mp4
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/g6UTwUVFYWI8VPWo5GylnbZVhin.jpg" group-title="Unknown",Capitan america civil war
-https://archive.org/download/1211_20200921/1211.mkv
-#EXTINF:-1 tvg-logo="https://mx.web.img3.acsta.net/pictures/18/03/07/09/26/4951397.jpg" group-title="Unknown",Christopher Robin:Un reencuentro inolvidable 2018
-https://dl.dropboxusercontent.com/s/rht2qn00mxakvt8/SalynPM-C.R.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/7pwu8XJCHFW5uAJSax5ycgS7q9q.jpg" group-title="Unknown",mas alla del tiempo
-https://github.com/BrianRVP/Prueba-plugins-/releases/download/291.1.2/Mas.Alla.del.Tiempo.-.Ver.Online.en.Espanol.Latino.mp4
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/9rJeh8mrbJdkIZ49K2cZIdAwbEj.jpg" group-title="Unknown",X-men apocalipsis
-https://dl.dropbox.com/s/hmtyf8bylhezvqc/xm3n4p0c411p515.mkv
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/oggEsESyLjVGD7jbIdBfa2hFUrx.jpg" group-title="Unknown",Viuda negra
-https://archive.org/download/manguera_20210711/Bl4ck.mkv
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/5SPa7dZ85p54xa7E9tHRmfKq5ce.jpg" group-title="Unknown",Capitana marvel
+https://dl.dropbox.com/s/qnnirswyiybs14k/CapMarvel.mp4
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/7WfK17BXE6szXlm4WOxfswgbdsL.jpg" group-title="Unknown",Doctor strange
 https://archive.org/download/dilapalabra9/41519.mp4
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/pGtkLdk4rnF2A3Yz2BHiTgRwMU4.jpg" group-title="Unknown",Thor Ragnarok
-https://archive.org/download/sh-1_20200430/Artya/sh%201.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/v0Q2uYARIqui1sEBF0bCLJaliDI.jpg" group-title="Unknown",OP2
+https://hugh.cdn.rumble.cloud/video/s8/2/B/J/O/4/BJO4s.caa.mp4
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/rdByKDkfyVuVSrkllzxKYXiZmTd.jpg" group-title="Unknown",X-men dark Phoenix
 https://archive.org/download/00300_201909/00300.mkv
-#EXTINF:-1 tvg-logo="https://mx.web.img3.acsta.net/pictures/17/11/01/07/50/3949122.jpg" group-title="Unknown",La razon de estar contigo 2016
-https://dl.dropboxusercontent.com/s/qga7cwijfr4eua2/SalynPM-SPM7s3g.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/5umEGkCrshN1JDywCbWZRvkdmry.jpg" group-title="Unknown",novia por contrato
-https://archive.org/download/s-0lt-3r-0-3n-c-4s-4/s0lt3r0%203n%20c4s4.mp4
-#EXTINF:-1 tvg-logo="https://i.ibb.co/HVhP7R8/IMG-20240727-110227-797.jpg" group-title="Unknown",casese quien pueda
-https://archive.org/download/video_2024-07-27_08-56-23/video_2024-07-27_08-56-23.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w154/3xFxGodKPMFLheS8rujFSmLfcq4.jpg" group-title="Unknown",Un puente hacia Terabithia
+https://ia800205.us.archive.org/5/items/el-mundo-magico-de-terabithiapelicula-completa-en-espanol-latino-480-p/El%20mundo%20m%C3%A1gico%20de%20Terabithia%28pel%C3%ADcula%20completa%20en%20espa%C3%B1ol%20latino%29%28480P%29.mp4
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/enemy_mine-922915975-mmed.jpg" group-title="Unknown",Enemigo mio
+https://ia800303.us.archive.org/28/items/enemigo-mio-espan-ol-latino-360-p/ENEMIGO%20MIO%20ESPA%C3%91OL%20LATINO%28360P%29.mp4
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/oggEsESyLjVGD7jbIdBfa2hFUrx.jpg" group-title="Unknown",Viuda negra
+https://archive.org/download/manguera_20210711/Bl4ck.mkv
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/the_flight_of_dragons-825167208-mmed.jpg" group-title="Unknown",El vuelo de los dragones
+https://ia600203.us.archive.org/6/items/facebook-407722370559405-480p/Facebook%20407722370559405%28480p%29.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/7pwu8XJCHFW5uAJSax5ycgS7q9q.jpg" group-title="Unknown",mas alla del tiempo
+https://github.com/BrianRVP/Prueba-plugins-/releases/download/291.1.2/Mas.Alla.del.Tiempo.-.Ver.Online.en.Espanol.Latino.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/1jvCVdlgInyItAUEvvvCakm1Yxz.jpg" group-title="Unknown",Culpa tuya
+https://github.com/BrianRVP/Ejemplo/releases/download/2.918/Culpa.tuya.Peliculas.Gratis.HD.mp4
+#EXTINF:-1 tvg-logo="https://mx.web.img3.acsta.net/pictures/18/03/07/09/26/4951397.jpg" group-title="Unknown",Christopher Robin:Un reencuentro inolvidable 2018
+https://dl.dropboxusercontent.com/s/rht2qn00mxakvt8/SalynPM-C.R.mp4
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/9rJeh8mrbJdkIZ49K2cZIdAwbEj.jpg" group-title="Unknown",X-men apocalipsis
+https://dl.dropbox.com/s/hmtyf8bylhezvqc/xm3n4p0c411p515.mkv
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/6OD0yBusMHXSQDdVFSrTlcFc3PO.jpg" group-title="Unknown",maravilloso desastre (2023)
 https://archive.org/download/video_2024-07-26_23-08-52/video_2024-07-26_23-08-52.mp4
-#EXTINF:-1 tvg-logo="https://archive.org/download/arrancame-la-vida/arrancame-la-vida.jpeg" group-title="Unknown",Arrancame La Vida
-https://archive.org/download/arrancame-la-vida-720p-lat-1.92-gb/Arrancame%20La%20Vida%20720p%20LAT%201.92%20GB.ia.mp4
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/w1dJluO5aKK7Puz7qNXoQeUh4Cb.jpg" group-title="Unknown",DF2
-https://archive.org/download/df-3_20210525/Acce/DF2.mp4
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/hisRiTK0zCP1sXtlCSrmFRVOVlz.jpg" group-title="Unknown",a traves de mi ventana 2
-https://archive.org/download/mi-2-1023.87-mb/mi%202%201023.87%20MB.mkv
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/eEcy8YQyxnZowlVSoiAfp72mxQF.jpg" group-title="Unknown",verdad o reto extension extendida.
-https://archive.org/download/verdad-o-reto-version-extendida/Verdad%20o%20reto_%20Versi%C3%B3n%20extendida.mp4
-#EXTINF:-1 tvg-logo="https://archive.org/download/0024658/0024658.jpg" group-title="Unknown",casate conmigo (2008)
-https://archive.org/download/casate-conmigo/casate%20conmigo.mp4
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/qjQX2r8PLbGNFvBUa8kVHvLRkAG.jpg" group-title="Unknown",al borde del abismo (2024)
 https://archive.org/download/68388-al-borde-7434del-abismo/68388Al%20borde%207434del%20abismo.mp4
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/w1dKe1xL7ZyMDMx4d12A0Z0Ny3m.jpg" group-title="Unknown",All hallows eve 2
-https://archive.org/download/all-hallows-eve-2_202408/All%20Hallows%27%20Eve%202.mp4
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/3PEVkIBOii1fxQxaQ0iKODGnBUp.jpg" group-title="Unknown",DF3
-https://archive.org/download/df-3_20210525/Acce/DF3.mp4
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/51S2wL4OBC4cAsr728lsFJNH5wv.jpg" group-title="Unknown",All Hallows Eve:tricksters (2023)
-https://archive.org/download/all-hallows-eve-trickster/All%20Hallows%27%20Eve_%20Trickster.mp4
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/tskjJSuOk1U8moEkCOPtetGTpFe.jpg" group-title="Unknown",la primera profecia (2024)
-https://archive.org/download/profecia_202407/profecia.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/5umEGkCrshN1JDywCbWZRvkdmry.jpg" group-title="Unknown",novia por contrato
+https://archive.org/download/s-0lt-3r-0-3n-c-4s-4/s0lt3r0%203n%20c4s4.mp4
 #EXTINF:-1 tvg-logo="https://i.ibb.co/5F1RrHw/MV5-BYTUy-MGVh-Mz-Ut-Zm-Y3-NS00-Mz-Jk-LTkx-Zj-Qt-Nz-Uy-Zm-Y5-ZDQ1-YTZi-Xk-Ey-Xk-Fqc-Gde-QXVy-Mj-Q0-O.jpg" group-title="Unknown",All hallows eve 1
 https://archive.org/download/263947-2fd-1978d-1fda-4d-2a-aa-87-c-8dda-9c-80835-eewm-2307947-1fichier/263947--2fd1978d-1fda-4d2a-aa87-c8dda9c80835--eewm--2307947-1fichier.mp4
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/1RxPBKMpHlcm5PORiPo6LHUV2ft.jpg" group-title="Unknown",a traves de mi ventana 3
 https://archive.org/download/mi-1-720p-b/mi1%20720pB.mkv
 #EXTINF:-1 tvg-logo="https://i.ibb.co/YZ5jSzb/Carnada-2024.jpg" group-title="Unknown",Carnada (2024)
 https://archive.org/download/seg-1-v1-a1_202407/seg-1-v1-a1.mp4
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/yT2SUMGuI4inUmBsiFjHqGp2axZ.jpg" group-title="Unknown",elevador gamer (2023)
-https://archive.org/download/3l-3vator-g-4m-3e/3l3vator%20g4m3e.mp4
-#EXTINF:-1 tvg-logo="https://dl.dropbox.com/scl/fi/0wmrjibm4lp0nnlfoch14/IMG_20240706_192319_554.jpg?rlkey=ybhmpy5jfs6whk45rwy4b137o&dl=0" group-title="Unknown",Alicia pais de las pesadillas (2024)
-https://archive.org/download/vid-20240706-193635-556/VID_20240706_193635_556.mp4
-#EXTINF:-1 tvg-logo="https://archive.org/download/img-20240703-102427-543_202407/IMG_20240703_102427_543.jpg" group-title="Unknown",los vigilantes
-https://archive.org/download/1918x-1036-los-vigilantes/1918x1036-Los%20Vigilantes.mp4
-#EXTINF:-1 tvg-logo="https://archive.org/download/img-20240703-210208-489/IMG_20240703_210208_489.jpg" group-title="Unknown",Jack en la caja maldita 3: El Ascenso
-https://archive.org/download/jack-in-the-box-3-el-ascenso-720p-dualc-1.38-gb/Jack%20in%20the%20Box%203%20El%20ascenso%20720p%20DUALC%201.38%20GB.mkv
-#EXTINF:-1 tvg-logo="https://dl.dropbox.com/scl/fi/qvepzlzdpuvaahe3flbju/IMG_20240706_182951_586.jpg?rlkey=v858otkyoz8k9mpu5sshnclvl&dl=0" group-title="Unknown",Winnie the Pooh: Sangre y miel (2023)
-https://archive.org/download/1-4963321321732703566/1_4963321321732703566.mp4
-#EXTINF:-1 tvg-logo="https://i.ibb.co/P4fhbZj/MV5-BMWJj-NGMz-ZTYt-ZGU4-YS00-NTM3-LTkw-ZDUt-ODI4-Ym-U2-Yjhi-NTZk-Xk-Ey-Xk-Fqc-Gde-QXVy-NDA5-ODU0-ND.jpg" group-title="Unknown",the 9 circle Corto
-https://archive.org/download/the-9th-circle-david-leone-2008-480-p/The%209th%20circle%20%20%20David%20Leone%202008%28480P%29.mp4
+#EXTINF:-1 tvg-logo="https://mx.web.img3.acsta.net/pictures/17/11/01/07/50/3949122.jpg" group-title="Unknown",La razon de estar contigo 2016
+https://dl.dropboxusercontent.com/s/qga7cwijfr4eua2/SalynPM-SPM7s3g.mp4
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/3PEVkIBOii1fxQxaQ0iKODGnBUp.jpg" group-title="Unknown",DF3
+https://archive.org/download/df-3_20210525/Acce/DF3.mp4
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/6F3MEcGHeMAMxledi7vQfqkZRkc.jpg" group-title="Unknown",DF1
 https://archive.org/download/df-3_20210525/Acce/DF1.mp4
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/w1dJluO5aKK7Puz7qNXoQeUh4Cb.jpg" group-title="Unknown",DF2
+https://archive.org/download/df-3_20210525/Acce/DF2.mp4
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/w1dKe1xL7ZyMDMx4d12A0Z0Ny3m.jpg" group-title="Unknown",All hallows eve 2
+https://archive.org/download/all-hallows-eve-2_202408/All%20Hallows%27%20Eve%202.mp4
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/eEcy8YQyxnZowlVSoiAfp72mxQF.jpg" group-title="Unknown",verdad o reto extension extendida.
+https://archive.org/download/verdad-o-reto-version-extendida/Verdad%20o%20reto_%20Versi%C3%B3n%20extendida.mp4
+#EXTINF:-1 tvg-logo="https://i.ibb.co/P4fhbZj/MV5-BMWJj-NGMz-ZTYt-ZGU4-YS00-NTM3-LTkw-ZDUt-ODI4-Ym-U2-Yjhi-NTZk-Xk-Ey-Xk-Fqc-Gde-QXVy-NDA5-ODU0-ND.jpg" group-title="Unknown",the 9 circle Corto
+https://archive.org/download/the-9th-circle-david-leone-2008-480-p/The%209th%20circle%20%20%20David%20Leone%202008%28480P%29.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/download/img-20240703-210208-489/IMG_20240703_210208_489.jpg" group-title="Unknown",Jack en la caja maldita 3: El Ascenso
+https://archive.org/download/jack-in-the-box-3-el-ascenso-720p-dualc-1.38-gb/Jack%20in%20the%20Box%203%20El%20ascenso%20720p%20DUALC%201.38%20GB.mkv
+#EXTINF:-1 tvg-logo="https://archive.org/download/img-20240703-102427-543_202407/IMG_20240703_102427_543.jpg" group-title="Unknown",los vigilantes
+https://archive.org/download/1918x-1036-los-vigilantes/1918x1036-Los%20Vigilantes.mp4
 #EXTINF:-1 tvg-logo="https://archive.org/download/img-20240704-162904-988/IMG_20240704_162904_988.jpg" group-title="Unknown",Winnie The Pooh: Miel y Sangre 2
 https://archive.org/download/winnie-the-pooh-miel-y-sangre-2-2024-1080p-dual-1.53-gb/Winnie%20The%20Pooh%20Miel%20y%20Sangre%202%20%282024%29%201080p%20DUAL%201.53%20GB.mkv
 #EXTINF:-1 tvg-logo="https://www.cuevana3.eu/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FyqnNLn24shYnZ6kqGpbwuB3NJ0D.jpg&w=640&q=75" group-title="Unknown",Cementerio de Mascotas: El Origen
 https://archive.org/download/220345-8357eb-25-ac-5b-407a-8e-0e-091569a-234cd-iiyp-1828807-doodstream_202310/220345--8357eb25-ac5b-407a-8e0e-091569a234cd--iiyp--1828807-doodstream.mp4
+#EXTINF:-1 tvg-logo="https://i.ibb.co/HVhP7R8/IMG-20240727-110227-797.jpg" group-title="Unknown",casese quien pueda
+https://archive.org/download/video_2024-07-27_08-56-23/video_2024-07-27_08-56-23.mp4
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/51S2wL4OBC4cAsr728lsFJNH5wv.jpg" group-title="Unknown",All Hallows Eve:tricksters (2023)
+https://archive.org/download/all-hallows-eve-trickster/All%20Hallows%27%20Eve_%20Trickster.mp4
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/g6UTwUVFYWI8VPWo5GylnbZVhin.jpg" group-title="Unknown",Capitan america civil war
+https://archive.org/download/1211_20200921/1211.mkv
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/3Zv12uAqBxj4xAdeHeVySEQzY1o.jpg" group-title="Unknown",Capitan america: El soldado del invierno
+https://archive.org/download/21416_202009/21416.mp4
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/yT2SUMGuI4inUmBsiFjHqGp2axZ.jpg" group-title="Unknown",elevador gamer (2023)
+https://archive.org/download/3l-3vator-g-4m-3e/3l3vator%20g4m3e.mp4
+#EXTINF:-1 tvg-logo="https://dl.dropbox.com/scl/fi/qvepzlzdpuvaahe3flbju/IMG_20240706_182951_586.jpg?rlkey=v858otkyoz8k9mpu5sshnclvl&dl=0" group-title="Unknown",Winnie the Pooh: Sangre y miel (2023)
+https://archive.org/download/1-4963321321732703566/1_4963321321732703566.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/download/0024658/0024658.jpg" group-title="Unknown",casate conmigo (2008)
+https://archive.org/download/casate-conmigo/casate%20conmigo.mp4
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/pGtkLdk4rnF2A3Yz2BHiTgRwMU4.jpg" group-title="Unknown",Thor Ragnarok
+https://archive.org/download/sh-1_20200430/Artya/sh%201.mp4
+#EXTINF:-1 tvg-logo="https://dl.dropbox.com/scl/fi/0wmrjibm4lp0nnlfoch14/IMG_20240706_192319_554.jpg?rlkey=ybhmpy5jfs6whk45rwy4b137o&dl=0" group-title="Unknown",Alicia pais de las pesadillas (2024)
+https://archive.org/download/vid-20240706-193635-556/VID_20240706_193635_556.mp4
+#EXTINF:-1 tvg-logo="https://archive.org/download/arrancame-la-vida/arrancame-la-vida.jpeg" group-title="Unknown",Arrancame La Vida
+https://archive.org/download/arrancame-la-vida-720p-lat-1.92-gb/Arrancame%20La%20Vida%20720p%20LAT%201.92%20GB.ia.mp4
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/hisRiTK0zCP1sXtlCSrmFRVOVlz.jpg" group-title="Unknown",a traves de mi ventana 2
+https://archive.org/download/mi-2-1023.87-mb/mi%202%201023.87%20MB.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/tskjJSuOk1U8moEkCOPtetGTpFe.jpg" group-title="Unknown",la primera profecia (2024)
+https://archive.org/download/profecia_202407/profecia.mp4
 #EXTINF:-1 tvg-logo="http://archive.org/download/125452445445/MI NIÑERA ES UN VAMPIRO .jpg" group-title="Unknown",MI NINERA ES UN VAMPIRO
 http://archive.org/download/acde288908f6856d326290398e8ea715-360p/acde288908f6856d326290398e8ea715-360p.mp4
